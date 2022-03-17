@@ -1,0 +1,4886 @@
+{
+    "behavior": {
+        "generic": [
+            {
+                "first_seen": 1647489956.4368,
+                "pid": 484,
+                "ppid": 368,
+                "process_name": "lsass.exe",
+                "process_path": "C:\\Windows\\System32\\lsass.exe",
+                "summary": {}
+            }
+        ],
+        "processes": [
+            {
+                "calls": [],
+                "command_line": "C:\\Windows\\system32\\lsass.exe",
+                "first_seen": 1647489956.4368,
+                "modules": [
+                    {
+                        "baseaddr": "0xff4c0000",
+                        "basename": "lsass.exe",
+                        "filepath": "C:\\Windows\\system32\\lsass.exe",
+                        "imgsize": 49152
+                    },
+                    {
+                        "baseaddr": "0x77bd0000",
+                        "basename": "ntdll.dll",
+                        "filepath": "C:\\Windows\\SYSTEM32\\ntdll.dll",
+                        "imgsize": 1740800
+                    },
+                    {
+                        "baseaddr": "0x779b0000",
+                        "basename": "kernel32.dll",
+                        "filepath": "C:\\Windows\\system32\\kernel32.dll",
+                        "imgsize": 1175552
+                    },
+                    {
+                        "baseaddr": "0x7fefdde0000",
+                        "basename": "KERNELBASE.dll",
+                        "filepath": "C:\\Windows\\system32\\KERNELBASE.dll",
+                        "imgsize": 438272
+                    },
+                    {
+                        "baseaddr": "0x7feffe40000",
+                        "basename": "msvcrt.dll",
+                        "filepath": "C:\\Windows\\system32\\msvcrt.dll",
+                        "imgsize": 651264
+                    },
+                    {
+                        "baseaddr": "0x7feffb20000",
+                        "basename": "RPCRT4.dll",
+                        "filepath": "C:\\Windows\\system32\\RPCRT4.dll",
+                        "imgsize": 1232896
+                    },
+                    {
+                        "baseaddr": "0x7fefd970000",
+                        "basename": "SspiSrv.dll",
+                        "filepath": "C:\\Windows\\system32\\SspiSrv.dll",
+                        "imgsize": 45056
+                    },
+                    {
+                        "baseaddr": "0x7fefd7e0000",
+                        "basename": "lsasrv.dll",
+                        "filepath": "C:\\Windows\\system32\\lsasrv.dll",
+                        "imgsize": 1470464
+                    },
+                    {
+                        "baseaddr": "0x7feffc50000",
+                        "basename": "sechost.dll",
+                        "filepath": "C:\\Windows\\SYSTEM32\\sechost.dll",
+                        "imgsize": 126976
+                    },
+                    {
+                        "baseaddr": "0x7fefd980000",
+                        "basename": "SspiCli.dll",
+                        "filepath": "C:\\Windows\\system32\\SspiCli.dll",
+                        "imgsize": 151552
+                    },
+                    {
+                        "baseaddr": "0x7fefe7a0000",
+                        "basename": "ADVAPI32.dll",
+                        "filepath": "C:\\Windows\\system32\\ADVAPI32.dll",
+                        "imgsize": 897024
+                    },
+                    {
+                        "baseaddr": "0x77ad0000",
+                        "basename": "USER32.dll",
+                        "filepath": "C:\\Windows\\system32\\USER32.dll",
+                        "imgsize": 1024000
+                    },
+                    {
+                        "baseaddr": "0x7fefe9e0000",
+                        "basename": "GDI32.dll",
+                        "filepath": "C:\\Windows\\system32\\GDI32.dll",
+                        "imgsize": 421888
+                    },
+                    {
+                        "baseaddr": "0x7fefea50000",
+                        "basename": "LPK.dll",
+                        "filepath": "C:\\Windows\\system32\\LPK.dll",
+                        "imgsize": 57344
+                    },
+                    {
+                        "baseaddr": "0x7fefe6d0000",
+                        "basename": "USP10.dll",
+                        "filepath": "C:\\Windows\\system32\\USP10.dll",
+                        "imgsize": 823296
+                    },
+                    {
+                        "baseaddr": "0x7fefd700000",
+                        "basename": "SAMSRV.dll",
+                        "filepath": "C:\\Windows\\system32\\SAMSRV.dll",
+                        "imgsize": 774144
+                    },
+                    {
+                        "baseaddr": "0x7fefd660000",
+                        "basename": "cryptdll.dll",
+                        "filepath": "C:\\Windows\\system32\\cryptdll.dll",
+                        "imgsize": 81920
+                    },
+                    {
+                        "baseaddr": "0x7fefdbc0000",
+                        "basename": "MSASN1.dll",
+                        "filepath": "C:\\Windows\\system32\\MSASN1.dll",
+                        "imgsize": 61440
+                    },
+                    {
+                        "baseaddr": "0x7fefd5f0000",
+                        "basename": "wevtapi.dll",
+                        "filepath": "C:\\Windows\\system32\\wevtapi.dll",
+                        "imgsize": 446464
+                    },
+                    {
+                        "baseaddr": "0x7fefebe0000",
+                        "basename": "IMM32.DLL",
+                        "filepath": "C:\\Windows\\system32\\IMM32.DLL",
+                        "imgsize": 188416
+                    },
+                    {
+                        "baseaddr": "0x7fefec10000",
+                        "basename": "MSCTF.dll",
+                        "filepath": "C:\\Windows\\system32\\MSCTF.dll",
+                        "imgsize": 1085440
+                    },
+                    {
+                        "baseaddr": "0x7fefd5b0000",
+                        "basename": "cngaudit.dll",
+                        "filepath": "C:\\Windows\\system32\\cngaudit.dll",
+                        "imgsize": 36864
+                    },
+                    {
+                        "baseaddr": "0x7fefd580000",
+                        "basename": "AUTHZ.dll",
+                        "filepath": "C:\\Windows\\system32\\AUTHZ.dll",
+                        "imgsize": 192512
+                    },
+                    {
+                        "baseaddr": "0x7fefd530000",
+                        "basename": "ncrypt.dll",
+                        "filepath": "C:\\Windows\\system32\\ncrypt.dll",
+                        "imgsize": 319488
+                    },
+                    {
+                        "baseaddr": "0x7fefd500000",
+                        "basename": "bcrypt.dll",
+                        "filepath": "C:\\Windows\\system32\\bcrypt.dll",
+                        "imgsize": 139264
+                    },
+                    {
+                        "baseaddr": "0x758f0000",
+                        "basename": "msprivs.DLL",
+                        "filepath": "C:\\Windows\\system32\\msprivs.DLL",
+                        "imgsize": 8192
+                    },
+                    {
+                        "baseaddr": "0x7fefd4c0000",
+                        "basename": "netjoin.dll",
+                        "filepath": "C:\\Windows\\system32\\netjoin.dll",
+                        "imgsize": 204800
+                    },
+                    {
+                        "baseaddr": "0x7fefd490000",
+                        "basename": "negoexts.DLL",
+                        "filepath": "C:\\Windows\\system32\\negoexts.DLL",
+                        "imgsize": 147456
+                    },
+                    {
+                        "baseaddr": "0x7fefd7c0000",
+                        "basename": "Secur32.dll",
+                        "filepath": "C:\\Windows\\system32\\Secur32.dll",
+                        "imgsize": 45056
+                    },
+                    {
+                        "baseaddr": "0x7fefda10000",
+                        "basename": "cryptbase.dll",
+                        "filepath": "C:\\Windows\\system32\\cryptbase.dll",
+                        "imgsize": 61440
+                    },
+                    {
+                        "baseaddr": "0x7fefd3d0000",
+                        "basename": "kerberos.DLL",
+                        "filepath": "C:\\Windows\\system32\\kerberos.DLL",
+                        "imgsize": 737280
+                    },
+                    {
+                        "baseaddr": "0x7fefd3b0000",
+                        "basename": "CRYPTSP.dll",
+                        "filepath": "C:\\Windows\\system32\\CRYPTSP.dll",
+                        "imgsize": 94208
+                    },
+                    {
+                        "baseaddr": "0x7fefdef0000",
+                        "basename": "WS2_32.dll",
+                        "filepath": "C:\\Windows\\system32\\WS2_32.dll",
+                        "imgsize": 315392
+                    },
+                    {
+                        "baseaddr": "0x7fefed80000",
+                        "basename": "NSI.dll",
+                        "filepath": "C:\\Windows\\system32\\NSI.dll",
+                        "imgsize": 32768
+                    },
+                    {
+                        "baseaddr": "0x7fefd350000",
+                        "basename": "mswsock.dll",
+                        "filepath": "C:\\Windows\\system32\\mswsock.dll",
+                        "imgsize": 348160
+                    },
+                    {
+                        "baseaddr": "0x7fefd340000",
+                        "basename": "wship6.dll",
+                        "filepath": "C:\\Windows\\System32\\wship6.dll",
+                        "imgsize": 28672
+                    },
+                    {
+                        "baseaddr": "0x7fefd2e0000",
+                        "basename": "msv1_0.DLL",
+                        "filepath": "C:\\Windows\\system32\\msv1_0.DLL",
+                        "imgsize": 331776
+                    },
+                    {
+                        "baseaddr": "0x7fefd230000",
+                        "basename": "netlogon.DLL",
+                        "filepath": "C:\\Windows\\system32\\netlogon.DLL",
+                        "imgsize": 712704
+                    },
+                    {
+                        "baseaddr": "0x7fefd1d0000",
+                        "basename": "DNSAPI.dll",
+                        "filepath": "C:\\Windows\\system32\\DNSAPI.dll",
+                        "imgsize": 372736
+                    },
+                    {
+                        "baseaddr": "0x7fefd1a0000",
+                        "basename": "logoncli.dll",
+                        "filepath": "C:\\Windows\\system32\\logoncli.dll",
+                        "imgsize": 196608
+                    },
+                    {
+                        "baseaddr": "0x7fefd140000",
+                        "basename": "schannel.DLL",
+                        "filepath": "C:\\Windows\\system32\\schannel.DLL",
+                        "imgsize": 356352
+                    },
+                    {
+                        "baseaddr": "0x7fefdc70000",
+                        "basename": "CRYPT32.dll",
+                        "filepath": "C:\\Windows\\system32\\CRYPT32.dll",
+                        "imgsize": 1470464
+                    },
+                    {
+                        "baseaddr": "0x7fefd100000",
+                        "basename": "wdigest.DLL",
+                        "filepath": "C:\\Windows\\system32\\wdigest.DLL",
+                        "imgsize": 221184
+                    },
+                    {
+                        "baseaddr": "0x7fefd0b0000",
+                        "basename": "rsaenh.dll",
+                        "filepath": "C:\\Windows\\system32\\rsaenh.dll",
+                        "imgsize": 290816
+                    },
+                    {
+                        "baseaddr": "0x7fefd090000",
+                        "basename": "tspkg.DLL",
+                        "filepath": "C:\\Windows\\system32\\tspkg.DLL",
+                        "imgsize": 98304
+                    },
+                    {
+                        "baseaddr": "0x7fefd040000",
+                        "basename": "pku2u.DLL",
+                        "filepath": "C:\\Windows\\system32\\pku2u.DLL",
+                        "imgsize": 282624
+                    },
+                    {
+                        "baseaddr": "0x7fefcff0000",
+                        "basename": "bcryptprimitives.dll",
+                        "filepath": "C:\\Windows\\system32\\bcryptprimitives.dll",
+                        "imgsize": 311296
+                    },
+                    {
+                        "baseaddr": "0x7fefdb00000",
+                        "basename": "RpcRtRemote.dll",
+                        "filepath": "C:\\Windows\\system32\\RpcRtRemote.dll",
+                        "imgsize": 81920
+                    },
+                    {
+                        "baseaddr": "0x7fefcfd0000",
+                        "basename": "efslsaext.dll",
+                        "filepath": "C:\\Windows\\system32\\efslsaext.dll",
+                        "imgsize": 73728
+                    },
+                    {
+                        "baseaddr": "0x7fefcf90000",
+                        "basename": "scecli.DLL",
+                        "filepath": "C:\\Windows\\system32\\scecli.DLL",
+                        "imgsize": 253952
+                    },
+                    {
+                        "baseaddr": "0x7fefcf80000",
+                        "basename": "credssp.dll",
+                        "filepath": "C:\\Windows\\system32\\credssp.dll",
+                        "imgsize": 40960
+                    },
+                    {
+                        "baseaddr": "0x7fefdac0000",
+                        "basename": "WINSTA.dll",
+                        "filepath": "C:\\Windows\\system32\\WINSTA.dll",
+                        "imgsize": 249856
+                    },
+                    {
+                        "baseaddr": "0x7fefb500000",
+                        "basename": "IPHLPAPI.DLL",
+                        "filepath": "C:\\Windows\\system32\\IPHLPAPI.DLL",
+                        "imgsize": 159744
+                    },
+                    {
+                        "baseaddr": "0x7fefb590000",
+                        "basename": "WINNSI.DLL",
+                        "filepath": "C:\\Windows\\system32\\WINNSI.DLL",
+                        "imgsize": 45056
+                    },
+                    {
+                        "baseaddr": "0x7fefb780000",
+                        "basename": "netutils.dll",
+                        "filepath": "C:\\Windows\\system32\\netutils.dll",
+                        "imgsize": 49152
+                    },
+                    {
+                        "baseaddr": "0x7fefce70000",
+                        "basename": "USERENV.dll",
+                        "filepath": "C:\\Windows\\system32\\USERENV.dll",
+                        "imgsize": 122880
+                    },
+                    {
+                        "baseaddr": "0x7fefdb20000",
+                        "basename": "profapi.dll",
+                        "filepath": "C:\\Windows\\system32\\profapi.dll",
+                        "imgsize": 61440
+                    },
+                    {
+                        "baseaddr": "0x7fefcd50000",
+                        "basename": "wshtcpip.dll",
+                        "filepath": "C:\\Windows\\System32\\wshtcpip.dll",
+                        "imgsize": 28672
+                    },
+                    {
+                        "baseaddr": "0x7fef22e0000",
+                        "basename": "dssenh.dll",
+                        "filepath": "C:\\Windows\\system32\\dssenh.dll",
+                        "imgsize": 204800
+                    },
+                    {
+                        "baseaddr": "0x7fefce50000",
+                        "basename": "GPAPI.dll",
+                        "filepath": "C:\\Windows\\system32\\GPAPI.dll",
+                        "imgsize": 110592
+                    },
+                    {
+                        "baseaddr": "0x750c0000",
+                        "basename": "monitor-x64.dll",
+                        "filepath": "C:\\tmpahkc3f\\bin\\monitor-x64.dll",
+                        "imgsize": 2269184
+                    }
+                ],
+                "pid": 484,
+                "ppid": 368,
+                "process_name": "lsass.exe",
+                "process_path": "C:\\Windows\\System32\\lsass.exe",
+                "tid": 2604,
+                "time": 0,
+                "track": false,
+                "type": "process"
+            }
+        ],
+        "processtree": [
+            {
+                "children": [],
+                "command_line": "C:\\Windows\\system32\\lsass.exe",
+                "first_seen": 1647489956.4368,
+                "pid": 484,
+                "ppid": 368,
+                "process_name": "lsass.exe",
+                "track": false
+            }
+        ]
+    },
+    "debug": {
+        "action": [],
+        "cuckoo": [],
+        "dbgview": [],
+        "errors": [],
+        "log": [
+            "2022-03-17 01:05:56,000 [analyzer] DEBUG: Starting analyzer from: C:\\tmpahkc3f\n",
+            "2022-03-17 01:05:56,015 [analyzer] DEBUG: Pipe server name: \\??\\PIPE\\oWqzVOhNRhXobftgnFkRoBarg\n",
+            "2022-03-17 01:05:56,015 [analyzer] DEBUG: Log pipe server name: \\??\\PIPE\\zSPTSsRFhbXDDQzJhOEp\n",
+            "2022-03-17 01:05:56,015 [analyzer] DEBUG: No analysis package specified, trying to detect it automagically.\n",
+            "2022-03-17 01:05:56,015 [analyzer] INFO: Automatically selected analysis package \"exe\"\n",
+            "2022-03-17 01:05:56,092 [analyzer] DEBUG: Started auxiliary module DbgView\n",
+            "2022-03-17 01:05:56,326 [analyzer] DEBUG: Started auxiliary module Disguise\n",
+            "2022-03-17 01:05:56,499 [analyzer] DEBUG: Loaded monitor into process with pid 484\n",
+            "2022-03-17 01:05:56,499 [analyzer] DEBUG: Started auxiliary module DumpTLSMasterSecrets\n",
+            "2022-03-17 01:05:56,499 [analyzer] DEBUG: Started auxiliary module Human\n",
+            "2022-03-17 01:05:56,499 [analyzer] DEBUG: Started auxiliary module InstallCertificate\n",
+            "2022-03-17 01:05:56,499 [analyzer] DEBUG: Started auxiliary module Reboot\n",
+            "2022-03-17 01:05:56,561 [analyzer] DEBUG: Started auxiliary module RecentFiles\n",
+            "2022-03-17 01:05:56,561 [modules.auxiliary.screenshots] INFO: Python Image Library (either PIL or Pillow) is not installed, screenshots are disabled.\n",
+            "2022-03-17 01:05:56,561 [analyzer] DEBUG: Started auxiliary module Screenshots\n",
+            "2022-03-17 01:05:56,561 [analyzer] DEBUG: Started auxiliary module LoadZer0m0n\n",
+            "2022-03-17 01:05:56,654 [lib.api.process] INFO: Successfully executed process from path u'C:\\\\Users\\\\ANALYS~1\\\\AppData\\\\Local\\\\Temp\\\\Cortex_Command.exe' with arguments '' and pid 2664\n",
+            "2022-03-17 01:05:57,638 [modules.auxiliary.human] INFO: Found button u'OK', clicking it\n",
+            "2022-03-17 01:05:58,697 [analyzer] INFO: Process with pid 2664 has terminated\n",
+            "2022-03-17 01:05:58,697 [analyzer] INFO: Process list is empty, terminating analysis.\n",
+            "2022-03-17 01:05:59,711 [analyzer] INFO: Analysis completed.\n"
+        ]
+    },
+    "info": {
+        "added": 1647479156.0,
+        "category": "file",
+        "custom": "",
+        "duration": 20,
+        "ended": 1647479176.0,
+        "git": {
+            "fetch_head": "13cbe0d9e457be3673304533043e992ead1ea9b2",
+            "head": "13cbe0d9e457be3673304533043e992ead1ea9b2"
+        },
+        "id": 55,
+        "machine": {
+            "label": "analysis1",
+            "manager": "vSphere",
+            "name": "analysis1",
+            "shutdown_on": "2022-03-17 01:06:16",
+            "started_on": "2022-03-17 01:06:05",
+            "status": "stopped"
+        },
+        "monitor": "2deb9ccd75d5a7a3fe05b2625b03a8639d6ee36b",
+        "options": "",
+        "owner": "",
+        "package": "",
+        "platform": "",
+        "route": "none",
+        "score": 0.2,
+        "started": 1647479156.0,
+        "version": "2.0.7"
+    },
+    "metadata": {
+        "output": {
+            "pcap": {
+                "basename": "dump.pcap",
+                "dirname": "",
+                "sha256": "e0442d7e18bee75c4ced24d19899c33e6cb2bb49f21f39e89b1283daaa1b7511"
+            }
+        }
+    },
+    "network": {
+        "dead_hosts": [],
+        "dns": [],
+        "dns_servers": [],
+        "domains": [],
+        "hosts": [],
+        "http": [],
+        "http_ex": [],
+        "https_ex": [],
+        "icmp": [],
+        "irc": [],
+        "mitm": [],
+        "pcap_sha256": "e0442d7e18bee75c4ced24d19899c33e6cb2bb49f21f39e89b1283daaa1b7511",
+        "smtp": [],
+        "smtp_ex": [],
+        "sorted_pcap_sha256": "3e4c18c9d85983c824f6afe2bdb4b715d58c7820f54409c9f8333499f545b9af",
+        "tcp": [],
+        "tls": [],
+        "udp": []
+    },
+    "signatures": [
+        {
+            "description": "The executable contains unknown PE section names indicative of a packer (could be a false positive)",
+            "families": [],
+            "markcount": 1,
+            "marks": [
+                {
+                    "category": "section",
+                    "description": null,
+                    "ioc": "_RDATA",
+                    "type": "ioc"
+                }
+            ],
+            "name": "pe_features",
+            "references": [],
+            "severity": 1,
+            "ttp": {
+                "T1045": {
+                    "long": "Software packing is a method of compressing or encrypting an executable. Packing an executable changes the file signature in an attempt to avoid signature-based detection. Most decompression techniques decompress the executable code in memory.",
+                    "short": "Software Packing"
+                }
+            }
+        }
+    ],
+    "static": {
+        "imported_dll_count": 18,
+        "keys": [],
+        "pdb_path": null,
+        "pe_exports": [
+            {
+                "address": "0x57e990",
+                "name": "_EXECryptor_AntiDebug@0",
+                "ordinal": 1
+            },
+            {
+                "address": "0x57e950",
+                "name": "_EXECryptor_DecodeSerialNumber@16",
+                "ordinal": 2
+            },
+            {
+                "address": "0x57e940",
+                "name": "_EXECryptor_DecodeSerialNumberW@16",
+                "ordinal": 3
+            },
+            {
+                "address": "0x57ecf0",
+                "name": "_EXECryptor_DecryptStr@8",
+                "ordinal": 4
+            },
+            {
+                "address": "0x57ec50",
+                "name": "_EXECryptor_DecryptStrW@8",
+                "ordinal": 5
+            },
+            {
+                "address": "0x57ed40",
+                "name": "_EXECryptor_EncryptStr@8",
+                "ordinal": 6
+            },
+            {
+                "address": "0x57eca0",
+                "name": "_EXECryptor_EncryptStrW@8",
+                "ordinal": 7
+            },
+            {
+                "address": "0x57ee00",
+                "name": "_EXECryptor_GetDate@0",
+                "ordinal": 8
+            },
+            {
+                "address": "0x57edd0",
+                "name": "_EXECryptor_GetEXECryptorVersion@0",
+                "ordinal": 9
+            },
+            {
+                "address": "0x57edf0",
+                "name": "_EXECryptor_GetHardwareID@0",
+                "ordinal": 10
+            },
+            {
+                "address": "0x57e9a0",
+                "name": "_EXECryptor_GetProcAddr@8",
+                "ordinal": 11
+            },
+            {
+                "address": "0x57ed90",
+                "name": "_EXECryptor_GetReleaseDate@0",
+                "ordinal": 12
+            },
+            {
+                "address": "0x57ec40",
+                "name": "_EXECryptor_GetTrialDaysLeft@4",
+                "ordinal": 13
+            },
+            {
+                "address": "0x57ec30",
+                "name": "_EXECryptor_GetTrialRunsLeft@4",
+                "ordinal": 14
+            },
+            {
+                "address": "0x57ede0",
+                "name": "_EXECryptor_IsAppProtected@0",
+                "ordinal": 15
+            },
+            {
+                "address": "0x57e930",
+                "name": "_EXECryptor_IsRegistered@0",
+                "ordinal": 16
+            },
+            {
+                "address": "0x57e9c0",
+                "name": "_EXECryptor_MessageBoxA@16",
+                "ordinal": 17
+            },
+            {
+                "address": "0x57e980",
+                "name": "_EXECryptor_ProtectImport@0",
+                "ordinal": 18
+            },
+            {
+                "address": "0x57e920",
+                "name": "_EXECryptor_RegConst_0@0",
+                "ordinal": 19
+            },
+            {
+                "address": "0x57e910",
+                "name": "_EXECryptor_RegConst_1@0",
+                "ordinal": 20
+            },
+            {
+                "address": "0x57e900",
+                "name": "_EXECryptor_RegConst_2@0",
+                "ordinal": 21
+            },
+            {
+                "address": "0x57e8f0",
+                "name": "_EXECryptor_RegConst_3@0",
+                "ordinal": 22
+            },
+            {
+                "address": "0x57e8e0",
+                "name": "_EXECryptor_RegConst_4@0",
+                "ordinal": 23
+            },
+            {
+                "address": "0x57e8d0",
+                "name": "_EXECryptor_RegConst_5@0",
+                "ordinal": 24
+            },
+            {
+                "address": "0x57e8c0",
+                "name": "_EXECryptor_RegConst_6@0",
+                "ordinal": 25
+            },
+            {
+                "address": "0x57e8b0",
+                "name": "_EXECryptor_RegConst_7@0",
+                "ordinal": 26
+            },
+            {
+                "address": "0x57eb10",
+                "name": "_EXECryptor_SecureRead@8",
+                "ordinal": 27
+            },
+            {
+                "address": "0x57e9e0",
+                "name": "_EXECryptor_SecureReadW@8",
+                "ordinal": 28
+            },
+            {
+                "address": "0x57eba0",
+                "name": "_EXECryptor_SecureWrite@8",
+                "ordinal": 29
+            },
+            {
+                "address": "0x57ea70",
+                "name": "_EXECryptor_SecureWriteW@8",
+                "ordinal": 30
+            },
+            {
+                "address": "0x57e970",
+                "name": "_EXECryptor_VerifySerialNumber@16",
+                "ordinal": 31
+            },
+            {
+                "address": "0x57e960",
+                "name": "_EXECryptor_VerifySerialNumberW@16",
+                "ordinal": 32
+            }
+        ],
+        "pe_imphash": "c62df6a0d7efbc140e29238bc094095e",
+        "pe_imports": [
+            {
+                "dll": "lua51.dll",
+                "imports": [
+                    {
+                        "address": "0x7026ac",
+                        "name": "lua_getfield"
+                    },
+                    {
+                        "address": "0x7026b0",
+                        "name": "lua_gc"
+                    },
+                    {
+                        "address": "0x7026b4",
+                        "name": "lua_pushstring"
+                    },
+                    {
+                        "address": "0x7026b8",
+                        "name": "luaopen_base"
+                    },
+                    {
+                        "address": "0x7026bc",
+                        "name": "lua_remove"
+                    },
+                    {
+                        "address": "0x7026c0",
+                        "name": "lua_getupvalue"
+                    },
+                    {
+                        "address": "0x7026c4",
+                        "name": "luaopen_string"
+                    },
+                    {
+                        "address": "0x7026c8",
+                        "name": "lua_rawgeti"
+                    },
+                    {
+                        "address": "0x7026cc",
+                        "name": "lua_tolstring"
+                    },
+                    {
+                        "address": "0x7026d0",
+                        "name": "lua_isnumber"
+                    },
+                    {
+                        "address": "0x7026d4",
+                        "name": "lua_tonumber"
+                    },
+                    {
+                        "address": "0x7026d8",
+                        "name": "lua_close"
+                    },
+                    {
+                        "address": "0x7026dc",
+                        "name": "lua_pushnil"
+                    },
+                    {
+                        "address": "0x7026e0",
+                        "name": "luaL_loadfile"
+                    },
+                    {
+                        "address": "0x7026e4",
+                        "name": "luaopen_math"
+                    },
+                    {
+                        "address": "0x7026e8",
+                        "name": "lua_pcall"
+                    },
+                    {
+                        "address": "0x7026ec",
+                        "name": "lua_pushcclosure"
+                    },
+                    {
+                        "address": "0x7026f0",
+                        "name": "lua_setfield"
+                    },
+                    {
+                        "address": "0x7026f4",
+                        "name": "lua_settable"
+                    },
+                    {
+                        "address": "0x7026f8",
+                        "name": "lua_gettable"
+                    },
+                    {
+                        "address": "0x7026fc",
+                        "name": "lua_type"
+                    },
+                    {
+                        "address": "0x702700",
+                        "name": "lua_getmetatable"
+                    },
+                    {
+                        "address": "0x702704",
+                        "name": "lua_createtable"
+                    },
+                    {
+                        "address": "0x702708",
+                        "name": "lua_pushvalue"
+                    },
+                    {
+                        "address": "0x70270c",
+                        "name": "lua_setmetatable"
+                    },
+                    {
+                        "address": "0x702710",
+                        "name": "lua_objlen"
+                    },
+                    {
+                        "address": "0x702714",
+                        "name": "lua_typename"
+                    },
+                    {
+                        "address": "0x702718",
+                        "name": "luaopen_debug"
+                    },
+                    {
+                        "address": "0x70271c",
+                        "name": "lua_pushnumber"
+                    },
+                    {
+                        "address": "0x702720",
+                        "name": "luaL_newstate"
+                    },
+                    {
+                        "address": "0x702724",
+                        "name": "lua_call"
+                    },
+                    {
+                        "address": "0x702728",
+                        "name": "lua_touserdata"
+                    },
+                    {
+                        "address": "0x70272c",
+                        "name": "lua_pushboolean"
+                    },
+                    {
+                        "address": "0x702730",
+                        "name": "lua_pushlightuserdata"
+                    },
+                    {
+                        "address": "0x702734",
+                        "name": "luaL_loadstring"
+                    },
+                    {
+                        "address": "0x702738",
+                        "name": "lua_newuserdata"
+                    },
+                    {
+                        "address": "0x70273c",
+                        "name": "lua_iscfunction"
+                    },
+                    {
+                        "address": "0x702740",
+                        "name": "lua_toboolean"
+                    },
+                    {
+                        "address": "0x702744",
+                        "name": "luaopen_table"
+                    },
+                    {
+                        "address": "0x702748",
+                        "name": "lua_pushlstring"
+                    },
+                    {
+                        "address": "0x70274c",
+                        "name": "luaopen_package"
+                    },
+                    {
+                        "address": "0x702750",
+                        "name": "lua_settop"
+                    },
+                    {
+                        "address": "0x702754",
+                        "name": "lua_gettop"
+                    },
+                    {
+                        "address": "0x702758",
+                        "name": "lua_rawset"
+                    },
+                    {
+                        "address": "0x70275c",
+                        "name": "lua_rawseti"
+                    },
+                    {
+                        "address": "0x702760",
+                        "name": "lua_insert"
+                    },
+                    {
+                        "address": "0x702764",
+                        "name": "lua_replace"
+                    },
+                    {
+                        "address": "0x702768",
+                        "name": "lua_rawget"
+                    },
+                    {
+                        "address": "0x70276c",
+                        "name": "lua_error"
+                    },
+                    {
+                        "address": "0x702770",
+                        "name": "lua_next"
+                    },
+                    {
+                        "address": "0x702774",
+                        "name": "lua_equal"
+                    }
+                ]
+            },
+            {
+                "dll": "libcurl.dll",
+                "imports": [
+                    {
+                        "address": "0x70269c",
+                        "name": "curl_easy_setopt"
+                    },
+                    {
+                        "address": "0x7026a0",
+                        "name": "curl_easy_init"
+                    },
+                    {
+                        "address": "0x7026a4",
+                        "name": "curl_easy_perform"
+                    }
+                ]
+            },
+            {
+                "dll": "fmod.dll",
+                "imports": [
+                    {
+                        "address": "0x702630",
+                        "name": "_FSOUND_Sample_Free@4"
+                    },
+                    {
+                        "address": "0x702634",
+                        "name": "_FSOUND_Sample_Load@20"
+                    },
+                    {
+                        "address": "0x702638",
+                        "name": "_FSOUND_Stream_SetTime@8"
+                    },
+                    {
+                        "address": "0x70263c",
+                        "name": "_FSOUND_Stream_Open@16"
+                    },
+                    {
+                        "address": "0x702640",
+                        "name": "_FSOUND_Stream_SetEndCallback@12"
+                    },
+                    {
+                        "address": "0x702644",
+                        "name": "_FSOUND_SetPriority@8"
+                    },
+                    {
+                        "address": "0x702648",
+                        "name": "_FSOUND_Stream_Stop@4"
+                    },
+                    {
+                        "address": "0x70264c",
+                        "name": "_FSOUND_Stream_Play@8"
+                    },
+                    {
+                        "address": "0x702650",
+                        "name": "_FSOUND_SetSFXMasterVolume@4"
+                    },
+                    {
+                        "address": "0x702654",
+                        "name": "_FSOUND_SetVolumeAbsolute@8"
+                    },
+                    {
+                        "address": "0x702658",
+                        "name": "_FSOUND_GetCurrentSample@4"
+                    },
+                    {
+                        "address": "0x70265c",
+                        "name": "_FSOUND_Stream_SetMode@8"
+                    },
+                    {
+                        "address": "0x702660",
+                        "name": "_FSOUND_SetVolume@8"
+                    },
+                    {
+                        "address": "0x702664",
+                        "name": "_FSOUND_Stream_GetTime@4"
+                    },
+                    {
+                        "address": "0x702668",
+                        "name": "_FSOUND_Init@12"
+                    },
+                    {
+                        "address": "0x70266c",
+                        "name": "_FSOUND_SetLoopMode@8"
+                    },
+                    {
+                        "address": "0x702670",
+                        "name": "_FSOUND_Stream_Close@4"
+                    },
+                    {
+                        "address": "0x702674",
+                        "name": "_FSOUND_SetFrequency@8"
+                    },
+                    {
+                        "address": "0x702678",
+                        "name": "_FSOUND_Close@0"
+                    },
+                    {
+                        "address": "0x70267c",
+                        "name": "_FSOUND_PlaySound@8"
+                    },
+                    {
+                        "address": "0x702680",
+                        "name": "_FSOUND_IsPlaying@4"
+                    },
+                    {
+                        "address": "0x702684",
+                        "name": "_FSOUND_StopSound@4"
+                    },
+                    {
+                        "address": "0x702688",
+                        "name": "_FSOUND_GetMaxChannels@0"
+                    },
+                    {
+                        "address": "0x70268c",
+                        "name": "_FSOUND_Stream_SetLoopCount@8"
+                    },
+                    {
+                        "address": "0x702690",
+                        "name": "_FSOUND_GetFrequency@4"
+                    },
+                    {
+                        "address": "0x702694",
+                        "name": "_FSOUND_GetError@0"
+                    }
+                ]
+            },
+            {
+                "dll": "zlibwapi.dll",
+                "imports": [
+                    {
+                        "address": "0x7027c0",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027c4",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027c8",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027cc",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027d0",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027d4",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027d8",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027dc",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027e0",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027e4",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027e8",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027ec",
+                        "name": null
+                    },
+                    {
+                        "address": "0x7027f0",
+                        "name": null
+                    }
+                ]
+            },
+            {
+                "dll": "KERNEL32.dll",
+                "imports": [
+                    {
+                        "address": "0x702090",
+                        "name": "WaitForSingleObject"
+                    },
+                    {
+                        "address": "0x702094",
+                        "name": "GetCurrentThreadId"
+                    },
+                    {
+                        "address": "0x702098",
+                        "name": "GetCurrentProcessId"
+                    },
+                    {
+                        "address": "0x70209c",
+                        "name": "IsProcessorFeaturePresent"
+                    },
+                    {
+                        "address": "0x7020a0",
+                        "name": "IsDebuggerPresent"
+                    },
+                    {
+                        "address": "0x7020a4",
+                        "name": "DecodePointer"
+                    },
+                    {
+                        "address": "0x7020a8",
+                        "name": "EncodePointer"
+                    },
+                    {
+                        "address": "0x7020ac",
+                        "name": "PulseEvent"
+                    },
+                    {
+                        "address": "0x7020b0",
+                        "name": "GetVersionExA"
+                    },
+                    {
+                        "address": "0x7020b4",
+                        "name": "LoadLibraryA"
+                    },
+                    {
+                        "address": "0x7020b8",
+                        "name": "FreeLibrary"
+                    },
+                    {
+                        "address": "0x7020bc",
+                        "name": "WaitForMultipleObjects"
+                    },
+                    {
+                        "address": "0x7020c0",
+                        "name": "GetThreadPriority"
+                    },
+                    {
+                        "address": "0x7020c4",
+                        "name": "ResetEvent"
+                    },
+                    {
+                        "address": "0x7020c8",
+                        "name": "MultiByteToWideChar"
+                    },
+                    {
+                        "address": "0x7020cc",
+                        "name": "SetThreadPriority"
+                    },
+                    {
+                        "address": "0x7020d0",
+                        "name": "GlobalAlloc"
+                    },
+                    {
+                        "address": "0x7020d4",
+                        "name": "CloseHandle"
+                    },
+                    {
+                        "address": "0x7020d8",
+                        "name": "EnterCriticalSection"
+                    },
+                    {
+                        "address": "0x7020dc",
+                        "name": "LeaveCriticalSection"
+                    },
+                    {
+                        "address": "0x7020e0",
+                        "name": "CreateEventA"
+                    },
+                    {
+                        "address": "0x7020e4",
+                        "name": "SetEvent"
+                    },
+                    {
+                        "address": "0x7020e8",
+                        "name": "DuplicateHandle"
+                    },
+                    {
+                        "address": "0x7020ec",
+                        "name": "OutputDebugStringA"
+                    },
+                    {
+                        "address": "0x7020f0",
+                        "name": "DeleteCriticalSection"
+                    },
+                    {
+                        "address": "0x7020f4",
+                        "name": "GetModuleHandleA"
+                    },
+                    {
+                        "address": "0x7020f8",
+                        "name": "GetModuleFileNameA"
+                    },
+                    {
+                        "address": "0x7020fc",
+                        "name": "Sleep"
+                    },
+                    {
+                        "address": "0x702100",
+                        "name": "InitializeCriticalSection"
+                    },
+                    {
+                        "address": "0x702104",
+                        "name": "GetCommandLineA"
+                    },
+                    {
+                        "address": "0x702108",
+                        "name": "GetCurrentThread"
+                    },
+                    {
+                        "address": "0x70210c",
+                        "name": "GetCurrentProcess"
+                    },
+                    {
+                        "address": "0x702110",
+                        "name": "GetVersion"
+                    },
+                    {
+                        "address": "0x702114",
+                        "name": "GetTempPathA"
+                    },
+                    {
+                        "address": "0x702118",
+                        "name": "GlobalUnlock"
+                    },
+                    {
+                        "address": "0x70211c",
+                        "name": "GlobalLock"
+                    },
+                    {
+                        "address": "0x702120",
+                        "name": "QueryPerformanceFrequency"
+                    },
+                    {
+                        "address": "0x702124",
+                        "name": "QueryPerformanceCounter"
+                    },
+                    {
+                        "address": "0x702128",
+                        "name": "FileTimeToLocalFileTime"
+                    },
+                    {
+                        "address": "0x70212c",
+                        "name": "GetProcAddress"
+                    },
+                    {
+                        "address": "0x702130",
+                        "name": "GetSystemTimeAsFileTime"
+                    },
+                    {
+                        "address": "0x702134",
+                        "name": "FileTimeToDosDateTime"
+                    }
+                ]
+            },
+            {
+                "dll": "USER32.dll",
+                "imports": [
+                    {
+                        "address": "0x7024b8",
+                        "name": "MessageBoxA"
+                    },
+                    {
+                        "address": "0x7024bc",
+                        "name": "SetClipboardData"
+                    },
+                    {
+                        "address": "0x7024c0",
+                        "name": "OpenClipboard"
+                    },
+                    {
+                        "address": "0x7024c4",
+                        "name": "EmptyClipboard"
+                    },
+                    {
+                        "address": "0x7024c8",
+                        "name": "GetClipboardData"
+                    },
+                    {
+                        "address": "0x7024cc",
+                        "name": "IsClipboardFormatAvailable"
+                    },
+                    {
+                        "address": "0x7024d0",
+                        "name": "CloseClipboard"
+                    },
+                    {
+                        "address": "0x7024d4",
+                        "name": "GetClassLongA"
+                    },
+                    {
+                        "address": "0x7024d8",
+                        "name": "SetWindowTextA"
+                    },
+                    {
+                        "address": "0x7024dc",
+                        "name": "MessageBoxW"
+                    },
+                    {
+                        "address": "0x7024e0",
+                        "name": "ShowWindow"
+                    },
+                    {
+                        "address": "0x7024e4",
+                        "name": "SetWindowPos"
+                    },
+                    {
+                        "address": "0x7024e8",
+                        "name": "RedrawWindow"
+                    },
+                    {
+                        "address": "0x7024ec",
+                        "name": "SetClassLongA"
+                    },
+                    {
+                        "address": "0x7024f0",
+                        "name": "EnableMenuItem"
+                    },
+                    {
+                        "address": "0x7024f4",
+                        "name": "ReleaseDC"
+                    },
+                    {
+                        "address": "0x7024f8",
+                        "name": "GetDC"
+                    },
+                    {
+                        "address": "0x7024fc",
+                        "name": "GetWindowRect"
+                    },
+                    {
+                        "address": "0x702500",
+                        "name": "GetSystemMenu"
+                    },
+                    {
+                        "address": "0x702504",
+                        "name": "LoadCursorA"
+                    },
+                    {
+                        "address": "0x702508",
+                        "name": "GetSystemMetrics"
+                    },
+                    {
+                        "address": "0x70250c",
+                        "name": "PostMessageA"
+                    },
+                    {
+                        "address": "0x702510",
+                        "name": "GetCursorPos"
+                    },
+                    {
+                        "address": "0x702514",
+                        "name": "SetCursorPos"
+                    },
+                    {
+                        "address": "0x702518",
+                        "name": "SetCursor"
+                    },
+                    {
+                        "address": "0x70251c",
+                        "name": "MapVirtualKeyA"
+                    },
+                    {
+                        "address": "0x702520",
+                        "name": "GetAsyncKeyState"
+                    },
+                    {
+                        "address": "0x702524",
+                        "name": "GetKeyboardState"
+                    },
+                    {
+                        "address": "0x702528",
+                        "name": "ToAscii"
+                    },
+                    {
+                        "address": "0x70252c",
+                        "name": "GetKeyNameTextA"
+                    },
+                    {
+                        "address": "0x702530",
+                        "name": "GetWindowLongA"
+                    },
+                    {
+                        "address": "0x702534",
+                        "name": "GetForegroundWindow"
+                    },
+                    {
+                        "address": "0x702538",
+                        "name": "MoveWindow"
+                    },
+                    {
+                        "address": "0x70253c",
+                        "name": "RegisterClassA"
+                    },
+                    {
+                        "address": "0x702540",
+                        "name": "AdjustWindowRect"
+                    },
+                    {
+                        "address": "0x702544",
+                        "name": "CallWindowProcA"
+                    },
+                    {
+                        "address": "0x702548",
+                        "name": "UpdateWindow"
+                    },
+                    {
+                        "address": "0x70254c",
+                        "name": "SystemParametersInfoA"
+                    },
+                    {
+                        "address": "0x702550",
+                        "name": "DispatchMessageA"
+                    },
+                    {
+                        "address": "0x702554",
+                        "name": "GetActiveWindow"
+                    },
+                    {
+                        "address": "0x702558",
+                        "name": "DefWindowProcA"
+                    },
+                    {
+                        "address": "0x70255c",
+                        "name": "PeekMessageA"
+                    },
+                    {
+                        "address": "0x702560",
+                        "name": "CreateWindowExA"
+                    },
+                    {
+                        "address": "0x702564",
+                        "name": "SetWindowLongA"
+                    },
+                    {
+                        "address": "0x702568",
+                        "name": "BeginPaint"
+                    },
+                    {
+                        "address": "0x70256c",
+                        "name": "RegisterWindowMessageA"
+                    },
+                    {
+                        "address": "0x702570",
+                        "name": "SendMessageA"
+                    },
+                    {
+                        "address": "0x702574",
+                        "name": "GetClientRect"
+                    },
+                    {
+                        "address": "0x702578",
+                        "name": "CreateIconIndirect"
+                    },
+                    {
+                        "address": "0x70257c",
+                        "name": "DestroyIcon"
+                    },
+                    {
+                        "address": "0x702580",
+                        "name": "InvalidateRect"
+                    },
+                    {
+                        "address": "0x702584",
+                        "name": "EndPaint"
+                    },
+                    {
+                        "address": "0x702588",
+                        "name": "ClientToScreen"
+                    },
+                    {
+                        "address": "0x70258c",
+                        "name": "DestroyWindow"
+                    },
+                    {
+                        "address": "0x702590",
+                        "name": "GetMessageA"
+                    },
+                    {
+                        "address": "0x702594",
+                        "name": "SetTimer"
+                    },
+                    {
+                        "address": "0x702598",
+                        "name": "PostQuitMessage"
+                    },
+                    {
+                        "address": "0x70259c",
+                        "name": "IsIconic"
+                    },
+                    {
+                        "address": "0x7025a0",
+                        "name": "KillTimer"
+                    },
+                    {
+                        "address": "0x7025a4",
+                        "name": "MsgWaitForMultipleObjects"
+                    },
+                    {
+                        "address": "0x7025a8",
+                        "name": "SetForegroundWindow"
+                    },
+                    {
+                        "address": "0x7025ac",
+                        "name": "LoadIconA"
+                    }
+                ]
+            },
+            {
+                "dll": "GDI32.dll",
+                "imports": [
+                    {
+                        "address": "0x70204c",
+                        "name": "CreatePalette"
+                    },
+                    {
+                        "address": "0x702050",
+                        "name": "RealizePalette"
+                    },
+                    {
+                        "address": "0x702054",
+                        "name": "StretchDIBits"
+                    },
+                    {
+                        "address": "0x702058",
+                        "name": "DeleteDC"
+                    },
+                    {
+                        "address": "0x70205c",
+                        "name": "SelectPalette"
+                    },
+                    {
+                        "address": "0x702060",
+                        "name": "SetPaletteEntries"
+                    },
+                    {
+                        "address": "0x702064",
+                        "name": "SetPixel"
+                    },
+                    {
+                        "address": "0x702068",
+                        "name": "GetSystemPaletteEntries"
+                    },
+                    {
+                        "address": "0x70206c",
+                        "name": "CreateBitmap"
+                    },
+                    {
+                        "address": "0x702070",
+                        "name": "SelectObject"
+                    },
+                    {
+                        "address": "0x702074",
+                        "name": "CreateCompatibleDC"
+                    },
+                    {
+                        "address": "0x702078",
+                        "name": "CreateCompatibleBitmap"
+                    },
+                    {
+                        "address": "0x70207c",
+                        "name": "GetDeviceCaps"
+                    },
+                    {
+                        "address": "0x702080",
+                        "name": "BitBlt"
+                    },
+                    {
+                        "address": "0x702084",
+                        "name": "CreateSolidBrush"
+                    },
+                    {
+                        "address": "0x702088",
+                        "name": "DeleteObject"
+                    }
+                ]
+            },
+            {
+                "dll": "ole32.dll",
+                "imports": [
+                    {
+                        "address": "0x70277c",
+                        "name": "CoInitialize"
+                    },
+                    {
+                        "address": "0x702780",
+                        "name": "CoCreateInstance"
+                    },
+                    {
+                        "address": "0x702784",
+                        "name": "CoUninitialize"
+                    }
+                ]
+            },
+            {
+                "dll": "DINPUT.dll",
+                "imports": [
+                    {
+                        "address": "0x702030",
+                        "name": "DirectInputCreateA"
+                    }
+                ]
+            },
+            {
+                "dll": "DINPUT8.dll",
+                "imports": [
+                    {
+                        "address": "0x702038",
+                        "name": "DirectInput8Create"
+                    }
+                ]
+            },
+            {
+                "dll": "DDRAW.dll",
+                "imports": [
+                    {
+                        "address": "0x702028",
+                        "name": "DirectDrawCreate"
+                    }
+                ]
+            },
+            {
+                "dll": "WINMM.dll",
+                "imports": [
+                    {
+                        "address": "0x7025b4",
+                        "name": "midiInClose"
+                    },
+                    {
+                        "address": "0x7025b8",
+                        "name": "waveOutClose"
+                    },
+                    {
+                        "address": "0x7025bc",
+                        "name": "waveOutWrite"
+                    },
+                    {
+                        "address": "0x7025c0",
+                        "name": "waveOutPause"
+                    },
+                    {
+                        "address": "0x7025c4",
+                        "name": "timeGetTime"
+                    },
+                    {
+                        "address": "0x7025c8",
+                        "name": "midiOutGetVolume"
+                    },
+                    {
+                        "address": "0x7025cc",
+                        "name": "midiInGetNumDevs"
+                    },
+                    {
+                        "address": "0x7025d0",
+                        "name": "midiOutReset"
+                    },
+                    {
+                        "address": "0x7025d4",
+                        "name": "midiOutOpen"
+                    },
+                    {
+                        "address": "0x7025d8",
+                        "name": "midiOutShortMsg"
+                    },
+                    {
+                        "address": "0x7025dc",
+                        "name": "midiOutClose"
+                    },
+                    {
+                        "address": "0x7025e0",
+                        "name": "midiInOpen"
+                    },
+                    {
+                        "address": "0x7025e4",
+                        "name": "midiInStart"
+                    },
+                    {
+                        "address": "0x7025e8",
+                        "name": "midiInGetDevCapsA"
+                    },
+                    {
+                        "address": "0x7025ec",
+                        "name": "midiOutGetDevCapsA"
+                    },
+                    {
+                        "address": "0x7025f0",
+                        "name": "midiInReset"
+                    },
+                    {
+                        "address": "0x7025f4",
+                        "name": "midiOutSetVolume"
+                    },
+                    {
+                        "address": "0x7025f8",
+                        "name": "midiOutGetNumDevs"
+                    },
+                    {
+                        "address": "0x7025fc",
+                        "name": "midiInStop"
+                    },
+                    {
+                        "address": "0x702600",
+                        "name": "joyGetNumDevs"
+                    },
+                    {
+                        "address": "0x702604",
+                        "name": "joyGetDevCapsA"
+                    },
+                    {
+                        "address": "0x702608",
+                        "name": "joyGetPosEx"
+                    },
+                    {
+                        "address": "0x70260c",
+                        "name": "waveOutPrepareHeader"
+                    },
+                    {
+                        "address": "0x702610",
+                        "name": "waveOutOpen"
+                    },
+                    {
+                        "address": "0x702614",
+                        "name": "waveOutUnprepareHeader"
+                    },
+                    {
+                        "address": "0x702618",
+                        "name": "waveOutSetVolume"
+                    },
+                    {
+                        "address": "0x70261c",
+                        "name": "waveOutReset"
+                    },
+                    {
+                        "address": "0x702620",
+                        "name": "waveOutRestart"
+                    },
+                    {
+                        "address": "0x702624",
+                        "name": "waveOutGetPosition"
+                    },
+                    {
+                        "address": "0x702628",
+                        "name": "waveOutGetVolume"
+                    }
+                ]
+            },
+            {
+                "dll": "DSOUND.dll",
+                "imports": [
+                    {
+                        "address": "0x702040",
+                        "name": null
+                    },
+                    {
+                        "address": "0x702044",
+                        "name": null
+                    }
+                ]
+            },
+            {
+                "dll": "steam_api.dll",
+                "imports": [
+                    {
+                        "address": "0x70278c",
+                        "name": "SteamUserStats"
+                    },
+                    {
+                        "address": "0x702790",
+                        "name": "SteamAPI_RegisterCallback"
+                    },
+                    {
+                        "address": "0x702794",
+                        "name": "SteamAPI_UnregisterCallback"
+                    },
+                    {
+                        "address": "0x702798",
+                        "name": "SteamAPI_RegisterCallResult"
+                    },
+                    {
+                        "address": "0x70279c",
+                        "name": "SteamAPI_UnregisterCallResult"
+                    },
+                    {
+                        "address": "0x7027a0",
+                        "name": "SteamUtils"
+                    },
+                    {
+                        "address": "0x7027a4",
+                        "name": "SteamRemoteStorage"
+                    },
+                    {
+                        "address": "0x7027a8",
+                        "name": "SteamUser"
+                    },
+                    {
+                        "address": "0x7027ac",
+                        "name": "SteamAPI_RunCallbacks"
+                    },
+                    {
+                        "address": "0x7027b0",
+                        "name": "SteamUGC"
+                    },
+                    {
+                        "address": "0x7027b4",
+                        "name": "SteamAPI_Init"
+                    },
+                    {
+                        "address": "0x7027b8",
+                        "name": "SteamAPI_Shutdown"
+                    }
+                ]
+            },
+            {
+                "dll": "ADVAPI32.dll",
+                "imports": [
+                    {
+                        "address": "0x702000",
+                        "name": "RegSetValueExW"
+                    },
+                    {
+                        "address": "0x702004",
+                        "name": "RegCloseKey"
+                    },
+                    {
+                        "address": "0x702008",
+                        "name": "RegOpenKeyExW"
+                    },
+                    {
+                        "address": "0x70200c",
+                        "name": "RegOpenKeyExA"
+                    },
+                    {
+                        "address": "0x702010",
+                        "name": "RegCreateKeyExA"
+                    },
+                    {
+                        "address": "0x702014",
+                        "name": "RegQueryValueExW"
+                    },
+                    {
+                        "address": "0x702018",
+                        "name": "RegQueryValueExA"
+                    },
+                    {
+                        "address": "0x70201c",
+                        "name": "RegCreateKeyExW"
+                    },
+                    {
+                        "address": "0x702020",
+                        "name": "RegSetValueExA"
+                    }
+                ]
+            },
+            {
+                "dll": "SHELL32.dll",
+                "imports": [
+                    {
+                        "address": "0x7024b0",
+                        "name": "ShellExecuteA"
+                    }
+                ]
+            },
+            {
+                "dll": "MSVCP120.dll",
+                "imports": [
+                    {
+                        "address": "0x70213c",
+                        "name": "?unget@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ"
+                    },
+                    {
+                        "address": "0x702140",
+                        "name": "?putback@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@D@Z"
+                    },
+                    {
+                        "address": "0x702144",
+                        "name": "?peek@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ"
+                    },
+                    {
+                        "address": "0x702148",
+                        "name": "?ignore@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@_JH@Z"
+                    },
+                    {
+                        "address": "0x70214c",
+                        "name": "?get@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEHXZ"
+                    },
+                    {
+                        "address": "0x702150",
+                        "name": "?always_noconv@codecvt_base@std@@QBE_NXZ"
+                    },
+                    {
+                        "address": "0x702154",
+                        "name": "??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x702158",
+                        "name": "?_Fiopen@std@@YAPAU_iobuf@@PBDHH@Z"
+                    },
+                    {
+                        "address": "0x70215c",
+                        "name": "?_BADOFF@std@@3_JB"
+                    },
+                    {
+                        "address": "0x702160",
+                        "name": "?id@?$codecvt@DDH@std@@2V0locale@2@A"
+                    },
+                    {
+                        "address": "0x702164",
+                        "name": "?_Swap_all@_Container_base0@std@@QAEXAAU12@@Z"
+                    },
+                    {
+                        "address": "0x702168",
+                        "name": "??Bid@locale@std@@QAEIXZ"
+                    },
+                    {
+                        "address": "0x70216c",
+                        "name": "?_Getcat@?$ctype@D@std@@SAIPAPBVfacet@locale@2@PBV42@@Z"
+                    },
+                    {
+                        "address": "0x702170",
+                        "name": "?getloc@ios_base@std@@QBE?AVlocale@2@XZ"
+                    },
+                    {
+                        "address": "0x702174",
+                        "name": "?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JXZ"
+                    },
+                    {
+                        "address": "0x702178",
+                        "name": "?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPAD_J@Z"
+                    },
+                    {
+                        "address": "0x70217c",
+                        "name": "?_Winerror_map@std@@YAPBDH@Z"
+                    },
+                    {
+                        "address": "0x702180",
+                        "name": "?_Syserror_map@std@@YAPBDH@Z"
+                    },
+                    {
+                        "address": "0x702184",
+                        "name": "?_Xbad_alloc@std@@YAXXZ"
+                    },
+                    {
+                        "address": "0x702188",
+                        "name": "?_Xout_of_range@std@@YAXPBD@Z"
+                    },
+                    {
+                        "address": "0x70218c",
+                        "name": "?_Xlength_error@std@@YAXPBD@Z"
+                    },
+                    {
+                        "address": "0x702190",
+                        "name": "?_Orphan_all@_Container_base12@std@@QAEXXZ"
+                    },
+                    {
+                        "address": "0x702194",
+                        "name": "?_Orphan_all@_Container_base0@std@@QAEXXZ"
+                    },
+                    {
+                        "address": "0x702198",
+                        "name": "?id@?$ctype@D@std@@2V0locale@2@A"
+                    },
+                    {
+                        "address": "0x70219c",
+                        "name": "??1_Lockit@std@@QAE@XZ"
+                    },
+                    {
+                        "address": "0x7021a0",
+                        "name": "??0_Lockit@std@@QAE@H@Z"
+                    },
+                    {
+                        "address": "0x7021a4",
+                        "name": "?_Getgloballocale@locale@std@@CAPAV_Locimp@12@XZ"
+                    },
+                    {
+                        "address": "0x7021a8",
+                        "name": "?_Ipfx@?$basic_istream@DU?$char_traits@D@std@@@std@@QAE_N_N@Z"
+                    },
+                    {
+                        "address": "0x7021ac",
+                        "name": "?sbumpc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ"
+                    },
+                    {
+                        "address": "0x7021b0",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAN@Z"
+                    },
+                    {
+                        "address": "0x7021b4",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAM@Z"
+                    },
+                    {
+                        "address": "0x7021b8",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAK@Z"
+                    },
+                    {
+                        "address": "0x7021bc",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAJ@Z"
+                    },
+                    {
+                        "address": "0x7021c0",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAI@Z"
+                    },
+                    {
+                        "address": "0x7021c4",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAH@Z"
+                    },
+                    {
+                        "address": "0x7021c8",
+                        "name": "??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x7021cc",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAG@Z"
+                    },
+                    {
+                        "address": "0x7021d0",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AAF@Z"
+                    },
+                    {
+                        "address": "0x7021d4",
+                        "name": "??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z"
+                    },
+                    {
+                        "address": "0x7021d8",
+                        "name": "?uncaught_exception@std@@YA_NXZ"
+                    },
+                    {
+                        "address": "0x7021dc",
+                        "name": "?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAE_JPBD_J@Z"
+                    },
+                    {
+                        "address": "0x7021e0",
+                        "name": "?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHD@Z"
+                    },
+                    {
+                        "address": "0x7021e4",
+                        "name": "?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV12@XZ"
+                    },
+                    {
+                        "address": "0x7021e8",
+                        "name": "?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEXXZ"
+                    },
+                    {
+                        "address": "0x7021ec",
+                        "name": "??0?$basic_iostream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@@Z"
+                    },
+                    {
+                        "address": "0x7021f0",
+                        "name": "??1?$basic_iostream@DU?$char_traits@D@std@@@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x7021f4",
+                        "name": "?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_JD@Z"
+                    },
+                    {
+                        "address": "0x7021f8",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@N@Z"
+                    },
+                    {
+                        "address": "0x7021fc",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@M@Z"
+                    },
+                    {
+                        "address": "0x702200",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@K@Z"
+                    },
+                    {
+                        "address": "0x702204",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@J@Z"
+                    },
+                    {
+                        "address": "0x702208",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@I@Z"
+                    },
+                    {
+                        "address": "0x70220c",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@H@Z"
+                    },
+                    {
+                        "address": "0x702210",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@G@Z"
+                    },
+                    {
+                        "address": "0x702214",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@F@Z"
+                    },
+                    {
+                        "address": "0x702218",
+                        "name": "??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QAEAAV01@_N@Z"
+                    },
+                    {
+                        "address": "0x70221c",
+                        "name": "?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEXABVlocale@2@@Z"
+                    },
+                    {
+                        "address": "0x702220",
+                        "name": "?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ"
+                    },
+                    {
+                        "address": "0x702224",
+                        "name": "?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEPAV12@PAD_J@Z"
+                    },
+                    {
+                        "address": "0x702228",
+                        "name": "?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAEHXZ"
+                    },
+                    {
+                        "address": "0x70222c",
+                        "name": "?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ"
+                    },
+                    {
+                        "address": "0x702230",
+                        "name": "?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UAEXXZ"
+                    },
+                    {
+                        "address": "0x702234",
+                        "name": "??5?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV01@AA_N@Z"
+                    },
+                    {
+                        "address": "0x702238",
+                        "name": "?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QAEXH_N@Z"
+                    },
+                    {
+                        "address": "0x70223c",
+                        "name": "?snextc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ"
+                    },
+                    {
+                        "address": "0x702240",
+                        "name": "?_Getcat@?$codecvt@DDH@std@@SAIPAPBVfacet@locale@2@PBV42@@Z"
+                    },
+                    {
+                        "address": "0x702244",
+                        "name": "?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MAE_JPBD_J@Z"
+                    },
+                    {
+                        "address": "0x702248",
+                        "name": "?_Swap_all@_Container_base12@std@@QAEXAAU12@@Z"
+                    },
+                    {
+                        "address": "0x70224c",
+                        "name": "?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXXZ"
+                    },
+                    {
+                        "address": "0x702250",
+                        "name": "?setg@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEXPAD00@Z"
+                    },
+                    {
+                        "address": "0x702254",
+                        "name": "?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QBE?AVlocale@2@XZ"
+                    },
+                    {
+                        "address": "0x702258",
+                        "name": "??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAE@XZ"
+                    },
+                    {
+                        "address": "0x70225c",
+                        "name": "?unshift@?$codecvt@DDH@std@@QBEHAAHPAD1AAPAD@Z"
+                    },
+                    {
+                        "address": "0x702260",
+                        "name": "??0?$basic_istream@DU?$char_traits@D@std@@@std@@QAE@PAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z"
+                    },
+                    {
+                        "address": "0x702264",
+                        "name": "??0?$basic_ios@DU?$char_traits@D@std@@@std@@IAE@XZ"
+                    },
+                    {
+                        "address": "0x702268",
+                        "name": "?_Pninc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IAEPADXZ"
+                    },
+                    {
+                        "address": "0x70226c",
+                        "name": "?out@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z"
+                    },
+                    {
+                        "address": "0x702270",
+                        "name": "?in@?$codecvt@DDH@std@@QBEHAAHPBD1AAPBDPAD3AAPAD@Z"
+                    },
+                    {
+                        "address": "0x702274",
+                        "name": "?getline@?$basic_istream@DU?$char_traits@D@std@@@std@@QAEAAV12@PAD_J@Z"
+                    },
+                    {
+                        "address": "0x702278",
+                        "name": "??1?$basic_istream@DU?$char_traits@D@std@@@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x70227c",
+                        "name": "??1?$basic_ios@DU?$char_traits@D@std@@@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x702280",
+                        "name": "?sgetc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QAEHXZ"
+                    }
+                ]
+            },
+            {
+                "dll": "MSVCR120.dll",
+                "imports": [
+                    {
+                        "address": "0x702288",
+                        "name": "_purecall"
+                    },
+                    {
+                        "address": "0x70228c",
+                        "name": "??3@YAXPAX@Z"
+                    },
+                    {
+                        "address": "0x702290",
+                        "name": "??2@YAPAXI@Z"
+                    },
+                    {
+                        "address": "0x702294",
+                        "name": "free"
+                    },
+                    {
+                        "address": "0x702298",
+                        "name": "malloc"
+                    },
+                    {
+                        "address": "0x70229c",
+                        "name": "sprintf"
+                    },
+                    {
+                        "address": "0x7022a0",
+                        "name": "memchr"
+                    },
+                    {
+                        "address": "0x7022a4",
+                        "name": "??_V@YAXPAX@Z"
+                    },
+                    {
+                        "address": "0x7022a8",
+                        "name": "??1bad_cast@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x7022ac",
+                        "name": "??0bad_cast@std@@QAE@PBD@Z"
+                    },
+                    {
+                        "address": "0x7022b0",
+                        "name": "??0bad_cast@std@@QAE@ABV01@@Z"
+                    },
+                    {
+                        "address": "0x7022b4",
+                        "name": "??0exception@std@@QAE@ABV01@@Z"
+                    },
+                    {
+                        "address": "0x7022b8",
+                        "name": "?terminate@@YAXXZ"
+                    },
+                    {
+                        "address": "0x7022bc",
+                        "name": "fputc"
+                    },
+                    {
+                        "address": "0x7022c0",
+                        "name": "_unlock_file"
+                    },
+                    {
+                        "address": "0x7022c4",
+                        "name": "ungetc"
+                    },
+                    {
+                        "address": "0x7022c8",
+                        "name": "memmove"
+                    },
+                    {
+                        "address": "0x7022cc",
+                        "name": "fgetpos"
+                    },
+                    {
+                        "address": "0x7022d0",
+                        "name": "_fseeki64"
+                    },
+                    {
+                        "address": "0x7022d4",
+                        "name": "fgetc"
+                    },
+                    {
+                        "address": "0x7022d8",
+                        "name": "fsetpos"
+                    },
+                    {
+                        "address": "0x7022dc",
+                        "name": "setvbuf"
+                    },
+                    {
+                        "address": "0x7022e0",
+                        "name": "_lock_file"
+                    },
+                    {
+                        "address": "0x7022e4",
+                        "name": "rand"
+                    },
+                    {
+                        "address": "0x7022e8",
+                        "name": "srand"
+                    },
+                    {
+                        "address": "0x7022ec",
+                        "name": "memcpy_s"
+                    },
+                    {
+                        "address": "0x7022f0",
+                        "name": "fwrite"
+                    },
+                    {
+                        "address": "0x7022f4",
+                        "name": "fclose"
+                    },
+                    {
+                        "address": "0x7022f8",
+                        "name": "_time64"
+                    },
+                    {
+                        "address": "0x7022fc",
+                        "name": "_mkdir"
+                    },
+                    {
+                        "address": "0x702300",
+                        "name": "_getcwd"
+                    },
+                    {
+                        "address": "0x702304",
+                        "name": "calloc"
+                    },
+                    {
+                        "address": "0x702308",
+                        "name": "vsprintf"
+                    },
+                    {
+                        "address": "0x70230c",
+                        "name": "strchr"
+                    },
+                    {
+                        "address": "0x702310",
+                        "name": "printf"
+                    },
+                    {
+                        "address": "0x702314",
+                        "name": "fopen"
+                    },
+                    {
+                        "address": "0x702318",
+                        "name": "atoi"
+                    },
+                    {
+                        "address": "0x70231c",
+                        "name": "fread"
+                    },
+                    {
+                        "address": "0x702320",
+                        "name": "fseek"
+                    },
+                    {
+                        "address": "0x702324",
+                        "name": "strncpy"
+                    },
+                    {
+                        "address": "0x702328",
+                        "name": "strrchr"
+                    },
+                    {
+                        "address": "0x70232c",
+                        "name": "ftell"
+                    },
+                    {
+                        "address": "0x702330",
+                        "name": "realloc"
+                    },
+                    {
+                        "address": "0x702334",
+                        "name": "sscanf"
+                    },
+                    {
+                        "address": "0x702338",
+                        "name": "tolower"
+                    },
+                    {
+                        "address": "0x70233c",
+                        "name": "toupper"
+                    },
+                    {
+                        "address": "0x702340",
+                        "name": "feof"
+                    },
+                    {
+                        "address": "0x702344",
+                        "name": "??8type_info@@QBE_NABV0@@Z"
+                    },
+                    {
+                        "address": "0x702348",
+                        "name": "fputs"
+                    },
+                    {
+                        "address": "0x70234c",
+                        "name": "fgets"
+                    },
+                    {
+                        "address": "0x702350",
+                        "name": "rename"
+                    },
+                    {
+                        "address": "0x702354",
+                        "name": "sprintf_s"
+                    },
+                    {
+                        "address": "0x702358",
+                        "name": "remove"
+                    },
+                    {
+                        "address": "0x70235c",
+                        "name": "strtok"
+                    },
+                    {
+                        "address": "0x702360",
+                        "name": "atol"
+                    },
+                    {
+                        "address": "0x702364",
+                        "name": "_errno"
+                    },
+                    {
+                        "address": "0x702368",
+                        "name": "exit"
+                    },
+                    {
+                        "address": "0x70236c",
+                        "name": "__CxxFrameHandler3"
+                    },
+                    {
+                        "address": "0x702370",
+                        "name": "_CxxThrowException"
+                    },
+                    {
+                        "address": "0x702374",
+                        "name": "memcpy"
+                    },
+                    {
+                        "address": "0x702378",
+                        "name": "?before@type_info@@QBE_NABV1@@Z"
+                    },
+                    {
+                        "address": "0x70237c",
+                        "name": "??0exception@std@@QAE@ABQBD@Z"
+                    },
+                    {
+                        "address": "0x702380",
+                        "name": "??1exception@std@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x702384",
+                        "name": "?what@exception@std@@UBEPBDXZ"
+                    },
+                    {
+                        "address": "0x702388",
+                        "name": "?name@type_info@@QBEPBDPAU__type_info_node@@@Z"
+                    },
+                    {
+                        "address": "0x70238c",
+                        "name": "tmpnam"
+                    },
+                    {
+                        "address": "0x702390",
+                        "name": "getenv"
+                    },
+                    {
+                        "address": "0x702394",
+                        "name": "strpbrk"
+                    },
+                    {
+                        "address": "0x702398",
+                        "name": "qsort"
+                    },
+                    {
+                        "address": "0x70239c",
+                        "name": "_wopen"
+                    },
+                    {
+                        "address": "0x7023a0",
+                        "name": "_wfindfirst64i32"
+                    },
+                    {
+                        "address": "0x7023a4",
+                        "name": "_wstat64i32"
+                    },
+                    {
+                        "address": "0x7023a8",
+                        "name": "_findnext64i32"
+                    },
+                    {
+                        "address": "0x7023ac",
+                        "name": "_findclose"
+                    },
+                    {
+                        "address": "0x7023b0",
+                        "name": "_wunlink"
+                    },
+                    {
+                        "address": "0x7023b4",
+                        "name": "_except1"
+                    },
+                    {
+                        "address": "0x7023b8",
+                        "name": "_wfindnext64i32"
+                    },
+                    {
+                        "address": "0x7023bc",
+                        "name": "_findfirst64i32"
+                    },
+                    {
+                        "address": "0x7023c0",
+                        "name": "_stat64i32"
+                    },
+                    {
+                        "address": "0x7023c4",
+                        "name": "abort"
+                    },
+                    {
+                        "address": "0x7023c8",
+                        "name": "__iob_func"
+                    },
+                    {
+                        "address": "0x7023cc",
+                        "name": "clock"
+                    },
+                    {
+                        "address": "0x7023d0",
+                        "name": "strtol"
+                    },
+                    {
+                        "address": "0x7023d4",
+                        "name": "strncat"
+                    },
+                    {
+                        "address": "0x7023d8",
+                        "name": "_beginthread"
+                    },
+                    {
+                        "address": "0x7023dc",
+                        "name": "_lock"
+                    },
+                    {
+                        "address": "0x7023e0",
+                        "name": "_unlock"
+                    },
+                    {
+                        "address": "0x7023e4",
+                        "name": "_calloc_crt"
+                    },
+                    {
+                        "address": "0x7023e8",
+                        "name": "__dllonexit"
+                    },
+                    {
+                        "address": "0x7023ec",
+                        "name": "_onexit"
+                    },
+                    {
+                        "address": "0x7023f0",
+                        "name": "??1type_info@@UAE@XZ"
+                    },
+                    {
+                        "address": "0x7023f4",
+                        "name": "_XcptFilter"
+                    },
+                    {
+                        "address": "0x7023f8",
+                        "name": "__crtGetShowWindowMode"
+                    },
+                    {
+                        "address": "0x7023fc",
+                        "name": "_amsg_exit"
+                    },
+                    {
+                        "address": "0x702400",
+                        "name": "__getmainargs"
+                    },
+                    {
+                        "address": "0x702404",
+                        "name": "__set_app_type"
+                    },
+                    {
+                        "address": "0x702408",
+                        "name": "_exit"
+                    },
+                    {
+                        "address": "0x70240c",
+                        "name": "_cexit"
+                    },
+                    {
+                        "address": "0x702410",
+                        "name": "_ismbblead"
+                    },
+                    {
+                        "address": "0x702414",
+                        "name": "_configthreadlocale"
+                    },
+                    {
+                        "address": "0x702418",
+                        "name": "__setusermatherr"
+                    },
+                    {
+                        "address": "0x70241c",
+                        "name": "_initterm_e"
+                    },
+                    {
+                        "address": "0x702420",
+                        "name": "_initterm"
+                    },
+                    {
+                        "address": "0x702424",
+                        "name": "_acmdln"
+                    },
+                    {
+                        "address": "0x702428",
+                        "name": "_fmode"
+                    },
+                    {
+                        "address": "0x70242c",
+                        "name": "_commode"
+                    },
+                    {
+                        "address": "0x702430",
+                        "name": "_crt_debugger_hook"
+                    },
+                    {
+                        "address": "0x702434",
+                        "name": "__crtUnhandledException"
+                    },
+                    {
+                        "address": "0x702438",
+                        "name": "__crtTerminateProcess"
+                    },
+                    {
+                        "address": "0x70243c",
+                        "name": "_except_handler4_common"
+                    },
+                    {
+                        "address": "0x702440",
+                        "name": "__crtSetUnhandledExceptionFilter"
+                    },
+                    {
+                        "address": "0x702444",
+                        "name": "_invoke_watson"
+                    },
+                    {
+                        "address": "0x702448",
+                        "name": "_controlfp_s"
+                    },
+                    {
+                        "address": "0x70244c",
+                        "name": "_read"
+                    },
+                    {
+                        "address": "0x702450",
+                        "name": "_close"
+                    },
+                    {
+                        "address": "0x702454",
+                        "name": "_open"
+                    },
+                    {
+                        "address": "0x702458",
+                        "name": "_lseek"
+                    },
+                    {
+                        "address": "0x70245c",
+                        "name": "_dup"
+                    },
+                    {
+                        "address": "0x702460",
+                        "name": "_write"
+                    },
+                    {
+                        "address": "0x702464",
+                        "name": "_unlink"
+                    },
+                    {
+                        "address": "0x702468",
+                        "name": "_strdup"
+                    },
+                    {
+                        "address": "0x70246c",
+                        "name": "_stricmp"
+                    },
+                    {
+                        "address": "0x702470",
+                        "name": "__RTDynamicCast"
+                    },
+                    {
+                        "address": "0x702474",
+                        "name": "__libm_sse2_atanf"
+                    },
+                    {
+                        "address": "0x702478",
+                        "name": "__libm_sse2_cos"
+                    },
+                    {
+                        "address": "0x70247c",
+                        "name": "__libm_sse2_cosf"
+                    },
+                    {
+                        "address": "0x702480",
+                        "name": "__libm_sse2_powf"
+                    },
+                    {
+                        "address": "0x702484",
+                        "name": "__libm_sse2_sinf"
+                    },
+                    {
+                        "address": "0x702488",
+                        "name": "__libm_sse2_tanf"
+                    },
+                    {
+                        "address": "0x70248c",
+                        "name": "_libm_sse2_cos_precise"
+                    },
+                    {
+                        "address": "0x702490",
+                        "name": "_libm_sse2_log10_precise"
+                    },
+                    {
+                        "address": "0x702494",
+                        "name": "_libm_sse2_pow_precise"
+                    },
+                    {
+                        "address": "0x702498",
+                        "name": "_libm_sse2_sin_precise"
+                    },
+                    {
+                        "address": "0x70249c",
+                        "name": "_libm_sse2_sqrt_precise"
+                    },
+                    {
+                        "address": "0x7024a0",
+                        "name": "ceil"
+                    },
+                    {
+                        "address": "0x7024a4",
+                        "name": "memset"
+                    },
+                    {
+                        "address": "0x7024a8",
+                        "name": "fflush"
+                    }
+                ]
+            }
+        ],
+        "pe_resources": [
+            {
+                "filetype": "Device independent bitmap graphic, 16 x 32 x 32, 3 compression, image size 1088",
+                "language": "LANG_ENGLISH",
+                "name": "RT_ICON",
+                "offset": "0x004410c0",
+                "size": "0x00000474",
+                "sublanguage": "SUBLANG_ENGLISH_US"
+            },
+            {
+                "filetype": "data",
+                "language": "LANG_ENGLISH",
+                "name": "RT_GROUP_ICON",
+                "offset": "0x00441538",
+                "size": "0x00000014",
+                "sublanguage": "SUBLANG_ENGLISH_US"
+            }
+        ],
+        "pe_sections": [
+            {
+                "entropy": 6.339166129207594,
+                "name": ".text",
+                "size_of_data": "0x00301000",
+                "virtual_address": "0x00001000",
+                "virtual_size": "0x00300fe3"
+            },
+            {
+                "entropy": 5.488959144081309,
+                "name": ".rdata",
+                "size_of_data": "0x000e0400",
+                "virtual_address": "0x00302000",
+                "virtual_size": "0x000e0322"
+            },
+            {
+                "entropy": 5.145570290313298,
+                "name": ".data",
+                "size_of_data": "0x00032800",
+                "virtual_address": "0x003e3000",
+                "virtual_size": "0x0005c580"
+            },
+            {
+                "entropy": 5.482571152101729,
+                "name": "_RDATA",
+                "size_of_data": "0x00000a00",
+                "virtual_address": "0x00440000",
+                "virtual_size": "0x00000920"
+            },
+            {
+                "entropy": 3.056624723502316,
+                "name": ".rsrc",
+                "size_of_data": "0x00000600",
+                "virtual_address": "0x00441000",
+                "virtual_size": "0x00000550"
+            },
+            {
+                "entropy": 6.430915003461081,
+                "name": ".reloc",
+                "size_of_data": "0x0004f200",
+                "virtual_address": "0x00442000",
+                "virtual_size": "0x0004f144"
+            }
+        ],
+        "pe_timestamp": "2017-02-14 08:57:51",
+        "pe_versioninfo": [],
+        "peid_signatures": null,
+        "signature": []
+    },
+    "strings": [
+        "!This program cannot be run in DOS mode.",
+        "`.rdata",
+        "@.data",
+        "_RDATA",
+        "@.rsrc",
+        "@.reloc",
+        "j*hd`p",
+        "\\$$9\\$",
+        "|$( s4Wj",
+        "u%h<tr",
+        "C0+L$(",
+        "u%h<tr",
+        "A,;A4|",
+        "A(;A0r",
+        "^ h`Rp",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l`+D",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$lP,D",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l -D",
+        "L$|_^d",
+        "D$l@-D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l`-D",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l .D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l@.D",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l`.D",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l /D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l@/D",
+        "L$|_^d",
+        "D$l`/D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l 0D",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l@0D",
+        "L$|_^d",
+        "D$l`0D",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l 1D",
+        "L$|_^d",
+        "D$l@1D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l`1D",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l 2D",
+        "L$|_^d",
+        "D$l@2D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l`2D",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l 3D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l@3D",
+        "L$|_^d",
+        "D$l`3D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l 4D",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l@4D",
+        "L$|_^d",
+        "D$l`4D",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l 5D",
+        "L$|_^d",
+        "D$l@5D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l`5D",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l 6D",
+        "L$|_^d",
+        "D$l@6D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l`6D",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l 7D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$l@7D",
+        "D$8p,D",
+        "L$|_^d",
+        "D$l`7D",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l 8D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l@8D",
+        "L$|_^d",
+        "D$l`8D",
+        "D$8 ,D",
+        "L$|_^d",
+        "D$8p,D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l 9D",
+        "L$|_^d",
+        "D$l@9D",
+        "D$8 +D",
+        "L$|_^d",
+        "D$l`9D",
+        "L$|_^d",
+        "D$8 +D",
+        "L$|_^d",
+        "D$8@:D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$8@;D",
+        "L$|_^d",
+        "L$|_^d",
+        "D$l <D",
+        "D$8@<D",
+        "L$|_^d",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$$@:D",
+        "D$,@:D",
+        "D$, FG",
+        "D$, FG",
+        "D$T@FG",
+        "D$$@:D",
+        "D$$p,D",
+        "D$T@GG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,p,D",
+        "D$,@:D",
+        "D$,@;D",
+        "D$,0HG",
+        "D$,@HG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,PHG",
+        "D$,`HG",
+        "D$,pHG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,PHG",
+        "D$,p,D",
+        "D$,p,D",
+        "D$,p,D",
+        "D$, ,D",
+        "D$,p,D",
+        "D$,p,D",
+        "D$,@:D",
+        "D$, IG",
+        "D$,0IG",
+        "D$,@:D",
+        "D$,@IG",
+        "D$,@:D",
+        "D$,PIG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,pIG",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@HG",
+        "D$, FG",
+        "D$, JG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,0JG",
+        "D$,p,D",
+        "D$,@JG",
+        "D$,0JG",
+        "D$,PJG",
+        "D$,`JG",
+        "D$TpJG",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@;D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$, KG",
+        "D$,0KG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@KG",
+        "D$,p,D",
+        "D$,PKG",
+        "D$,`KG",
+        "D$TpKG",
+        "D$$@:D",
+        "D$, LG",
+        "D$T@LG",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,`LG",
+        "D$,`IG",
+        "D$4@MG",
+        "D$4pMG",
+        "D$4@MG",
+        "D$40NG",
+        "D$4PNG",
+        "D$4pNG",
+        "D$40OG",
+        "D$4POG",
+        "D$40PG",
+        "D$4PPG",
+        "D$4@MG",
+        "D$4pPG",
+        "D$$@:D",
+        "D$, QG",
+        "D$,0QG",
+        "D$,@QG",
+        "D$,PQG",
+        "D$,`QG",
+        "D$,pQG",
+        "D$,p,D",
+        "D$,p,D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$40RG",
+        "D$4PRG",
+        "D$4pRG",
+        "D$4PPG",
+        "D$40SG",
+        "D$4PSG",
+        "D$4pSG",
+        "D$40TG",
+        "D$4PTG",
+        "D$4pTG",
+        "D$,@QG",
+        "D$,@:D",
+        "D$,PUG",
+        "D$,@:D",
+        "D$T`UG",
+        "D$$@:D",
+        "D$,@;D",
+        "D$,@QG",
+        "D$,@:D",
+        "D$,@:D",
+        "D$, VG",
+        "D$,@;D",
+        "D$,@:D",
+        "D$T0VG",
+        "D$$@:D",
+        "D$,@:D",
+        "D$,@:D",
+        "D$,@;D",
+        "D$,@;D",
+        "D$,@:D",
+        "D$,@;D",
+        "D$,@:D",
+        "D$40WG",
+        "D$4@MG",
+        "D$TPWG",
+        "D$$@:D",
+        "D$T`WG",
+        "D$$@:D",
+        "D$TpWG",
+        "D$40XG",
+        "D$4@MG",
+        "D$4@MG",
+        "D$4@MG",
+        "D$,pXG",
+        "D$4pPG",
+        "D$40WG",
+        "QVhL~~",
+        "L$D_^d",
+        "L$D_^d",
+        "QVh<{~",
+        "\\$(UVWj",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$0;D$",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$D_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "L$@_^d",
+        "VWhL|~",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "L$D_^d",
+        "QVhL|~",
+        "QVh|{~",
+        "t$4QPW",
+        "+D$D_^[",
+        "\\$ VWS",
+        "t$,QPS",
+        "t$4QPW",
+        "D$4;L$",
+        "D$@;L$",
+        "D$0;L$D",
+        "D$0;L$",
+        "L$8QWh",
+        "D$,;L$@",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$<;L$",
+        "D$,;L$@",
+        "D$4;L$",
+        "D$<;L$",
+        "L$ QWh",
+        "D$,;L$@",
+        "D$0;L$",
+        "L$0QWh",
+        "D$<;L$",
+        "L$0;D$",
+        "D$,;L$@",
+        "D$H;L$",
+        "D$D;L$X",
+        "D$L;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$T;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$H;L$$",
+        "L$@QWh",
+        "D$,;L$@",
+        "D$4;L$",
+        "L$ QWh",
+        "L$8;D$",
+        "L$8;D$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "L$ QWh",
+        "D$<;L$",
+        "L$8;D$",
+        "L$8;D$",
+        "D$,;L$@",
+        "L$ QWh",
+        "L$DQWh",
+        "D$0;L$",
+        "D$0;L$D",
+        "L$0;D$h",
+        "L$,;D$@",
+        "D$4;L$",
+        "D$8;L$X",
+        "D$<;L$",
+        "D$`;L$$",
+        "D$T;L$$",
+        "D$H;L$$",
+        "D$`;L$t",
+        "D$T;L$h",
+        "L$0;D$h",
+        "D$D;L$X",
+        "D$H;L$$",
+        "L$8;D$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$,;L$@",
+        "D$<;L$",
+        "L$8;D$",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$<;L$",
+        "D$,;L$@",
+        "L$8;D$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$H;L$$",
+        "D$<;L$",
+        "D$4;L$",
+        "D$<;L$",
+        "D$,;L$@",
+        "D$<;L$",
+        "D$<;L$",
+        "D$8;L$L",
+        "D$D;L$",
+        "D$D;L$X",
+        "D$0;L$D",
+        "D$0;L$D",
+        "L$8;D$",
+        "L$8;D$",
+        "D$4;L$",
+        "D$0;L$",
+        "D$L;L$(",
+        "D$h;L$@",
+        "D$,;L$@",
+        "D$8;L$",
+        "D$<;L$",
+        "L$8;D$",
+        "D$,;L$@",
+        "D$8;L$",
+        "D$<;L$",
+        "D$,;L$@",
+        "L$8;D$",
+        "D$<;L$",
+        "D$<;L$",
+        "L$8;D$",
+        "L$8;D$",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$,;L$@",
+        "L$8;D$",
+        "L$8;D$",
+        "L$8;D$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$H;L$$",
+        "L$8;D$",
+        "L$8;D$",
+        "D$4;L$",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$,;L$@",
+        "D$4;L$H",
+        "D$0;L$",
+        "D$<;L$",
+        "L$TQWh",
+        "D$4;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$8;L$",
+        "L$@;D$",
+        "L$8;D$",
+        "D$<;L$",
+        "D$4;L$H",
+        "D$4;L$",
+        "D$4;L$H",
+        "D$<;L$",
+        "D$4;L$",
+        "D$H;L$$",
+        "D$H;L$$",
+        "D$,;L$@",
+        "D$0;L$",
+        "D$\\;L$0",
+        "L$(QWh",
+        "L$LQWh",
+        "L$$QWh",
+        "L$HQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$(QWh",
+        "L$LQWh",
+        "L$(QWh",
+        "L$LQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$(QWh",
+        "L$LQWh",
+        "L$TQWh",
+        "L$xQWh",
+        "L$8QWh",
+        "L$$QWh",
+        "L$$QWh",
+        "L$<QWh",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$4;L$H",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$4;L$",
+        "D$,;L$@",
+        "D$4;L$",
+        "D$<;L$",
+        "D$4;L$H",
+        "D$4;L$",
+        "D$4;L$H",
+        "D$<;L$",
+        "D$8;L$L",
+        "D$<;L$",
+        "D$8;L$",
+        "D$|;L$H",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$,;L$@",
+        "D$@;L$",
+        "D$8;L$",
+        "D$8;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$8;L$",
+        "D$4;L$",
+        "D$4;L$H",
+        "D$`;L$t",
+        "D$,;L$@",
+        "D$X;L$,",
+        "D$0;L$D",
+        "D$4;L$",
+        "D$8;L$",
+        "D$L;L$",
+        "D$H;L$\\",
+        "D$<;L$",
+        "D$4;L$H",
+        "D$,;L$@",
+        "D$<;L$",
+        "L$0;D$",
+        "T$HRPh",
+        "L$h;D$",
+        "QWhL~~",
+        "\\$(UVWj",
+        "D$0;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$L;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$L;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$L;L$",
+        "D$L;L$",
+        "D$<;L$",
+        "D$0;L$",
+        "D$<;L$",
+        "D$<;L$",
+        "L$ QWh",
+        "L$ QWh",
+        "L$DQWh",
+        "L$ QWh",
+        "\\$$UVWS",
+        "D$0;L$D",
+        "D$L;L$`",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$",
+        "D$4;L$H",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$8;L$L",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$0;L$D",
+        "D$0;L$",
+        "D$0;L$D",
+        "D$4;L$",
+        "D$0;L$D",
+        "D$<;L$",
+        "D$D;L$X",
+        "D$0;L$D",
+        "D$0;L$D",
+        "D$0;L$D",
+        "l$$VWU",
+        "\\$ UVWS",
+        ";|$$t2",
+        "T$$9T$",
+        "|$,;D$ tbSV",
+        "|$4;D$(u",
+        "t$<;t$D",
+        "t$<;t$D",
+        "|$$;\\$",
+        "|$(;\\$ u",
+        "L$ ;|$(",
+        "u%h<tr",
+        "t=;;u.",
+        "D$ 9D$",
+        "T$0;D$$u",
+        "t=;3u.",
+        "l$4u8;",
+        "l$4u8;",
+        "L$\\_][d",
+        "L$`_^[d",
+        "L$D^][d",
+        "L$\\_^][d",
+        "4SUVWj",
+        "L$D_^][d",
+        "L$@_^[d",
+        "t=;;u.",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "u%h<tr",
+        "f9DLDu",
+        "(f9TDD",
+        "(f9LDDu",
+        "(f9LDDu",
+        "(f9LDDu",
+        "(f9TDD",
+        "(f9LDDu",
+        "(f9LDDu",
+        "(f9LDDu",
+        "L$$9=to",
+        "t$$VWS",
+        "t$$VWS",
+        "t$$VWS",
+        "F;t$ ~",
+        "D$ ;|$",
+        "t$$VWS",
+        "t$$VWS",
+        "N;t$ }",
+        "D$ ;|$",
+        "t$$VWS",
+        "t$$VWS",
+        "F;t$ ~",
+        "L$ ;|$",
+        "t$$VWS",
+        ";t$ |$",
+        "t$$VWS",
+        "N;t$ }",
+        "@(RUSV",
+        "@,QUSV",
+        "t$LRQU",
+        ";D$$tt;t$ }n",
+        ";D$(tr;",
+        "L$(PQW",
+        ";t$ }v",
+        "L$4PQW",
+        "D$$;\\$D~S;\\$",
+        "D$(;D$",
+        "+\\$0WP",
+        "L$49D$0",
+        "+\\$$WP",
+        "+D$(WP",
+        "D$8VW3",
+        "L$8_^3",
+        "L$$_^3",
+        "D$(_[%",
+        "D$0SUVW",
+        "L$8_^][3",
+        ".ructA",
+        "8FTUt9",
+        ".rucVP",
+        "CINU^Qt",
+        "D$,j#P",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "h.rucP",
+        "8CSAh.rucP",
+        "h.rucP",
+        "L$ h.rucP",
+        "8CSAh.rucP",
+        "=+hlst(",
+        "EMANuE",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "=.LLAt(",
+        "CINUPt",
+        "8CSAh.rucP",
+        "8CAXDt",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "t$ VUP",
+        "8CSAh.rucP",
+        "t$,j@h.rucP",
+        "t$,j@h.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "D$(9D$",
+        "L$ ;t$",
+        "=porpu+",
+        "=.llau",
+        ",=.LLAu#j",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "=.LLAt",
+        "D$,=porpuX",
+        "|$(EMANu",
+        "CINUtk",
+        ".ruch8CSAP",
+        ".ruchCINUP",
+        "CINUtk",
+        ".ruch8CSAP",
+        ".ruchCINUP",
+        "8CSAPu",
+        ".ruch8CSAP",
+        ".ruchCINUP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "PhPCSAV",
+        "9|$<~d",
+        "9t$8~(",
+        "9|$<~g",
+        "7;t$(u",
+        ";;|$0u",
+        "7;t$(u",
+        ";;|$0u",
+        "D$ 9T$P",
+        "9\\$L~c",
+        ";T$(tS",
+        "D$ 9T$P",
+        "9\\$L~c",
+        ";T$,tS",
+        ";T$,tR",
+        "7;t$(u",
+        "D$ 9T$P",
+        "9|$L~k",
+        "3;t$(u",
+        "9|$L~P",
+        "D$$9T$P",
+        "9|$L~k",
+        "3;t$,u",
+        "9|$L~P",
+        ";;|$,u",
+        "L$(SUQ",
+        "L$0QVW",
+        "D$,VWQSP",
+        " _^][Y",
+        "t$ WVj",
+        "u$95Lq",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "9l$htm",
+        "L$ ;L$",
+        "PVWh0CR",
+        "D$(SUV",
+        ".ruch8CSAP",
+        "L$8_^][3",
+        "D$$SUVW",
+        ".ruch8CSAP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "ul9= r",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "SQj@h`r",
+        "t&Wh.ruc",
+        "h8CSAh",
+        "8CSAhCINUP",
+        "PhCINUW",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "Vh.rucU",
+        "8FTUu\u001f=8CSAt",
+        "=8FTUu",
+        ")D$ x\"",
+        "QSUVW3",
+        "D$DSUV",
+        ".ruch8CSAP",
+        "88FTUt",
+        "D$ SUV",
+        "88FTUt",
+        "88FTUt",
+        "88FTUt",
+        "88FTUt",
+        "98FTUt",
+        "8CSAVh.rucP",
+        "88FTUt",
+        "}=9t$ |7",
+        "V9\\$$|=",
+        "D$ _^P",
+        "D$ _^][",
+        "D$(SUV",
+        ".ruch8CSAP",
+        "L$8_^][3",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "3_^][Y",
+        "8CSAh.rucP",
+        "D$lj P",
+        "8CSAh.rucP",
+        ".ruch8CSAP",
+        ".ruch8CSAP",
+        ".ruch8CSAP",
+        ".ruch8CSAP",
+        "8IDIMtX",
+        "D$(SUV",
+        ".ruch8CSAP",
+        "L$8_^][3",
+        "D$0SUVW",
+        ".ruch8CSAP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "D$0Ht|Ht@H",
+        "t$(;D$,t!",
+        "\\$ O;0}",
+        "|$(;t$0",
+        "=FORMu",
+        "=ILBMt(=PBM t!",
+        "=BMHDu",
+        "=BODYtk",
+        "D$8PWV",
+        "h.ruch`U",
+        "L$T_^[3",
+        "D$,j.P",
+        "h8CSAh",
+        "D$LSUVW3",
+        "D$$PWj0",
+        "|$@+|$8",
+        "t09FDu",
+        "tQ9FDu",
+        "L$(QSUV",
+        "D$`SV3",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "~@\u001ft9h",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "PRWSPRj",
+        "RPWVRPWV",
+        "WSh g~",
+        "D$(SUW",
+        "8datau",
+        "L$ Qh8v",
+        "8CSAh.rucP",
+        "= LAPu",
+        "=TNOFu",
+        "9(~AVW",
+        "L$djAQ",
+        "L$dj$Q",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "QPVWSj",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "=.LLAt",
+        "=porpus",
+        "EMANuP",
+        "h.rucP",
+        "P= TAPu83",
+        "8CSAh.rucP",
+        "QSUVW3",
+        "9D4,uG",
+        "t$,VSRP",
+        "9D$ _]^",
+        "8CSAh.rucP",
+        "8CSAh.rucP",
+        "L$$_^][3",
+        "\\$ UVW",
+        "D$(9\\$",
+        "SV;D$Tt",
+        "\\$$UVW",
+        "=NWXDt",
+        "=BWXDu6;5",
+        "L$(_^][3",
+        "=NWXDt",
+        "=BWXDu",
+        "L$<_^[3",
+        "T$$SWRQ",
+        "t$,PUV",
+        " _][^Y",
+        "=NWXDt",
+        "=NWXDt",
+        "=BWXDu",
+        "L$|_^3",
+        "=NWXDt",
+        "=BWXDu",
+        "=NWXDt",
+        "=BWXDu",
+        "=NWXDt",
+        "=BWXDu",
+        "t-+L$ ",
+        "t$8AQP",
+        "SUVWth",
+        "SUVWtj",
+        "\\$ ;\\$",
+        "T$$C;\\$",
+        "T$(E;l$",
+        "T$(E;l$",
+        "|$,OxT",
+        "D$ CMu",
+        "D$@+D$<",
+        "t$DB;T$",
+        "L$4;D$",
+        ";|$,tK",
+        "L$(+L$$",
+        "T$$+t$",
+        "L$,+L$",
+        "Fx;F|t",
+        "ED_^][",
+        "T$$;t$0~",
+        "T$$;D$P",
+        "t$(;D$\\",
+        ";L$ uQG",
+        "t$ CWV",
+        "t$ ;t$$",
+        "T$ SUVW",
+        "T$(;l$",
+        "T$(E;l$",
+        "T$$9T$",
+        "T$$;T$",
+        "t$$VUW",
+        "|$0Ox{",
+        "|$0Oxr",
+        "\\$$UVWtf",
+        "l$(VWtf",
+        "SUVWtd",
+        "\\$$UVWts",
+        "\\$ UVWtp",
+        "\\$$UVW",
+        "\\$$UVW",
+        "T$$SUVW",
+        "D$ ;\\$",
+        "T$(E;l$",
+        "T$(;l$",
+        "f;D$ t",
+        "f;D$ u",
+        "T$ 9T$",
+        "T$ ;T$",
+        "T$(9T$",
+        "T$(;T$",
+        "l$(VWtf",
+        "\\$$UVW",
+        "SUVWtj",
+        "T$(E;l$",
+        "T$(;l$",
+        "T$$9T$",
+        "T$$;T$",
+        "|$0Ox{",
+        "\\$$UVW",
+        "\\$$UVW",
+        "T$(E;l$",
+        "T$(;l$",
+        "f;D$ t",
+        "f;D$ u",
+        "T$ 9T$",
+        "T$ ;T$",
+        "T$(9T$",
+        "T$(;T$",
+        "T$ SVW",
+        "D$$SUV",
+        "D$$SUV",
+        "D$(SUV",
+        "D$(SUV",
+        "D$(SUV",
+        "D$$SUV",
+        "D$$SUV",
+        "D$,SUV",
+        "D$(SUV",
+        "D$,SUV",
+        "D$(SUV",
+        "D$$SUV",
+        "D$$x_V",
+        "D$,xkVW",
+        "D$,SUW",
+        "D$,SUW",
+        "D$(SUW",
+        ">_^][Y",
+        ">_^][Y",
+        "D$ 9(u",
+        "D$,_^][",
+        "B|:A|t",
+        "B(;A(u",
+        ">_^][Y",
+        ">_^][Y",
+        "L$$QUW",
+        "D$ 9(u",
+        "D$,_^][",
+        "t9ht,p",
+        "tbh$/p",
+        "tuhP/p",
+        "t5+>;F",
+        "t{h<-p",
+        "B(;A(t",
+        "9t$ ~OU",
+        "F;t$$|",
+        "G`;Gdt$",
+        "CD$ VP",
+        "D$ThhDp",
+        " PMBtgV",
+        "CD$ VP",
+        "D$ThhDp",
+        "L$T_^d",
+        "F _^][",
+        "d$8h`?p",
+        "L$l_[d",
+        "D$P_^]d",
+        "D$$hor",
+        "D$<hor",
+        "D$<hor",
+        "D$<hor",
+        "D$4SUh",
+        "D$\\WUh",
+        "D$LWh8Ep",
+        "L$ QPV",
+        "9^Lv(3",
+        "O,;^Lr",
+        ";\\$ s\"",
+        "l$$;l$0",
+        "T$,;T$0}",
+        "L$L_^d",
+        "B`;Bdt",
+        "t:h(Pp",
+        "A(;A,t4",
+        "d$<h0Jp",
+        "d$<hHJp",
+        "x*kOl4",
+        "L$t_^d",
+        "D$(h\\Tp",
+        "L$D_^d",
+        "GXhDUp",
+        "B`;Bdt",
+        "D$x vr",
+        "D$T9\\$\\",
+        "D$TDur",
+        "D$x vr",
+        "u!h(^p",
+        "D$XhhDp",
+        "u'hd^p",
+        "D$ +D$8",
+        "D$(+D$@Pj",
+        "SUVWu/",
+        "D$DhhDp",
+        "d$$hX]p",
+        "d$$h ]p",
+        "d$,h@[p",
+        "d$,h8\\p",
+        " LAPth",
+        "SUVWj0",
+        "T$Lj@j@j@",
+        "d$,h Xp",
+        "L$H_^]d",
+        "D$$ vr",
+        "D$$ vr",
+        "D$$ vr",
+        "D$$ vr",
+        "u/hXdp",
+        "D$P@gX",
+        "D$P0IX",
+        "D$TpMA",
+        "D$T }A",
+        "L$XQhT",
+        "D$T@~A",
+        "D$d`&Z",
+        "D$TP~A",
+        "D$T`~A",
+        "D$Tp~A",
+        "D$\\p`\\",
+        "d$$h\\}p",
+        "d$(hx}p",
+        "d$$hh|p",
+        "d$$hdzp",
+        "d$$hpyp",
+        "d$,h xp",
+        "d$(h vp",
+        "d$,h up",
+        "d$$http",
+        "d$$htsp",
+        "d$$hTqp",
+        "d$(hpqp",
+        "d$$hxnp",
+        "d$(h(mp",
+        "d$$h(lp",
+        "d$,h@lp",
+        "d$$h@jp",
+        "d$(hXjp",
+        "d$$hTgp",
+        "d$(hpgp",
+        "d$$hTfp",
+        "d$,hpfp",
+        "L$8;L$0",
+        "D$\\9L$",
+        "D$8+D$",
+        "t$$+t$ ",
+        "D$,;T$$t5;",
+        "T$\\;T$,",
+        "~Y;X4}T",
+        "~g;]4}b",
+        "s(;s,tJ",
+        "D$phor",
+        "|$,;|$@",
+        "T$ ;T$4",
+        "D$xBCP",
+        "|$\\9\\$$t",
+        "I#L$03",
+        "\\$h9l$(t",
+        "l$t9t$,t",
+        "P`;D$@uh",
+        "P`;D$@uh",
+        "P`;D$4",
+        "P`;D$4",
+        "D$$_^][",
+        "P`;D$<",
+        "L$LSUV",
+        "P`;D$\\",
+        "\\$09\\$Hu(",
+        "\\$ 9\\$8u(",
+        "D$ hhDp",
+        "D$ hhDp",
+        "D$ hhDp",
+        "D$8hhDp",
+        "D$8hhDp",
+        "D$(hhDp",
+        "D$(hhDp",
+        "D$(hhDp",
+        "D$(hhDp",
+        "D$(hhDp",
+        "D$8hhDp",
+        "D$8hhDp",
+        "/D$@v+",
+        "/D$,v'",
+        "/D$@r/",
+        "/Ap_^[",
+        "D$ hor",
+        "/D$ v:",
+        "<F;t$|",
+        "x#;1}\u001f",
+        "R`;D$t",
+        ";t$puv",
+        "nL$(Ef",
+        "D$x_^]d",
+        "0G;|$T",
+        ":D$Lu\u001f",
+        "0F;t$T",
+        "R`;D$H",
+        "x);1}%",
+        ":D$LuN",
+        "4B;T$P",
+        "4B;T$P",
+        ":D$Tt!",
+        "/D$Hs?",
+        "xR;1}N",
+        "D$0SU;",
+        ":D$HuF",
+        "D$0SU;",
+        ":D$Ht%",
+        "<E;l$l",
+        "D$ ;D$h})",
+        "D$0hhDp",
+        "D$0hhDp",
+        "x#;2}\u001f",
+        "6;t; u",
+        ";l; t&",
+        "L$l_^]d",
+        "|$h;|$H",
+        "N|$H;T$D",
+        "MT$D;L$@",
+        "NL$@;D$<",
+        "D$(+T$h+",
+        "x%;1}!",
+        "D$,_^][",
+        "L$ URP",
+        "C09K,|",
+        "T.09L$",
+        "D$8SU3",
+        "d$4h -q",
+        "d$4h\\-q",
+        "d$4hx-q",
+        "u\u001f8F,t",
+        "u\u001f8F,t",
+        "u\u001f8F,t",
+        "u%hT.q",
+        "L$X_^]f",
+        "QSVWj<",
+        "t6< r2",
+        "D$|dnr",
+        "L$0_^]d",
+        "NV`;Nd",
+        "8Fpt.j",
+        "VW8Kpt",
+        "K;V$t&",
+        "t$<SWV",
+        "Nw`;Wd",
+        "Kx+KpP",
+        "L$D_^d",
+        "d$,h`0q",
+        "d$,h|0q",
+        "d$,h40q",
+        "d$,hL0q",
+        "t$<SWV",
+        ";s<tEW",
+        "t$<SWV",
+        "NDh41q",
+        "L$T_^]d",
+        "L$,_^d",
+        "NW`;Od",
+        "L$,_^d",
+        "t$<SWV",
+        "L$(_^]d",
+        "pSUVWh",
+        "F$;F(tS",
+        "w<;w8t4",
+        "tAh(4q",
+        "s$;s(t",
+        "L$0_^]d",
+        "L$T_^]d",
+        "G;|$$|",
+        "NV`;Nd",
+        "S0;Q$t\u001f",
+        "t$<SWV",
+        "Nq`;Qd",
+        "FD_^][Y",
+        "V4_^][Y",
+        "P4_^][Y",
+        "D$$;D$",
+        "K|;O$t ",
+        "K0;O$t%",
+        "T$D;J$t$",
+        "T$D;J$t)",
+        "L$,+D$T",
+        "T$D;J$t$",
+        "L$0P+D$\\",
+        "+D$0UP",
+        "d$,h$6q",
+        "d$,h86q",
+        "L$4_^d",
+        "CX;AXuD",
+        "CX;AXuK",
+        "u%hx6q",
+        "AX;FXt",
+        "D4XHt(Ht",
+        "IX;KXt",
+        "SX;s@t",
+        "w@;w<t",
+        "w<;w@t!",
+        "w<;w@t ",
+        "p<;p@t2",
+        "NV`;Nd",
+        "d$,h 8q",
+        "L$(QWV",
+        "t$<SWV",
+        "NDhP7q",
+        ";|$X}r",
+        "NV`;Nd",
+        "S0;Q$t\u001f",
+        "L$T_^d",
+        "L$L_^d",
+        "NV`;Nd",
+        "L$D_^d",
+        "d$,hx9q",
+        "d$,h8:q",
+        "d$,hL:q",
+        "d$,h :q",
+        "t$<SWV",
+        "Nq`;Qd",
+        "@X;AXuO",
+        "\\$<WVUS",
+        "NDh|:q",
+        "L$(QSV",
+        "L$P_^]d",
+        "L$T_^]d",
+        "u<hD;q",
+        "s(W;s,t[",
+        "s@;sDt`",
+        "s4;s8t\"",
+        "\\$ ;u8",
+        "|$H;|$(~",
+        "|$$;pD",
+        "L$L_^d",
+        "NV`;Nd",
+        "T$(RWj",
+        "L$(QUS",
+        "L$<_^]d",
+        "L$L_^d",
+        "t$<SWV",
+        "L$L_^d",
+        "NV`;Nd",
+        "L$D_^d",
+        "d$,h|>q",
+        "t$<SWV",
+        "NV`;Nd",
+        "L$,_^d",
+        "|$<SVUW",
+        "NDhx?q",
+        "L$L_^d",
+        "L$,_^d",
+        "L$,_^d",
+        "V0;Q$t\u001f",
+        "L$8RWP",
+        "L$<_^d",
+        "L$<_^]d",
+        "D$<<or",
+        "D$X<or",
+        "D$x<or",
+        "D$X<or",
+        "D$x<or",
+        "L$T_^d",
+        "|$TSWU",
+        "D$p<or",
+        "D$\\PPW",
+        "R`;CttH",
+        "R`;Cttg",
+        "R`;Ctt\u001f",
+        "R`;Ctu;",
+        "L$t_^d",
+        "D$(^][",
+        "l$,VWU",
+        "L$d_^d",
+        "33s?w-",
+        ",D$LRP",
+        ",D$LRP",
+        ",D$LRP",
+        "L$0_^]d",
+        "D$,_^][",
+        "P0_^]3",
+        "j#hpGq",
+        "j$h4Hq",
+        "j$h|Hq",
+        "_^;Att",
+        "P`;Gtur",
+        "P`;Gtu",
+        "L$d_^d",
+        "L$T_^d",
+        "L$@_^][d",
+        "G`;Gdt$",
+        "d$$hhTq",
+        "d$(hHTq",
+        "D$tPPW",
+        "R`;Ctt\u001f",
+        "R`;Ctt",
+        "R`;Ctuw",
+        "+L$0QR",
+        "+L$0QR",
+        "D$D;D$H",
+        "x#;1}\u001f",
+        "D$(hhDp",
+        "D$0TUU",
+        "D$4K;E",
+        "|$,;\\$",
+        "D$4O;E",
+        "T$$;T$ ",
+        "Bt)D$0",
+        "D$phhDp",
+        "D$T<or",
+        "x$;9} ",
+        "D$xhhDp",
+        "D$X<or",
+        "x2;:}.",
+        "T$,;T$p}",
+        "@`:A`t",
+        "L$4_^][d",
+        "L$T_^d",
+        "l$0VWU",
+        "L$\\_^][d",
+        "D$Ph _q",
+        ",t$$VRQu",
+        ",t$$VQRu",
+        ",t$$VRQu",
+        ",t$$VRQu",
+        ",t$$VRQu",
+        "L$d_^d",
+        "L$\\_^][d",
+        "D$0 vr",
+        "D$4dnr",
+        "D$0 vr",
+        "D$4dnr",
+        "F0;F4u",
+        "L$\\_^d",
+        "p(h(fq",
+        "L$d_^d",
+        "L$4_^][d",
+        "F`;Fdt",
+        "F`;Fdt",
+        "F`;Fdt*",
+        "L$H_^d",
+        "D$X_^d",
+        "D$d^[d",
+        "wp;oluQ",
+        "L$D_[d",
+        "R _^]3",
+        "u(hHtq",
+        "D$,hhDp",
+        "D$,hhDp",
+        "L$,_^d",
+        "t1hhwq",
+        "L$t_^d",
+        "L$8_^]d",
+        "L$,_][d",
+        "D$xPt0",
+        "u6Ph,R",
+        "l$Pv-f",
+        "L$$PUSj",
+        "L$DPUSj",
+        "T$`PUSj",
+        "D$Lh,}q",
+        "t$8;t$<",
+        "t$t;t$x",
+        "u%hL|q",
+        "D$$hhDp",
+        "D$ hor",
+        "\\$D9\\$\\",
+        "D$08L$",
+        "D$48T$",
+        "D$(hhDp",
+        "D$ hor",
+        "D$Phor",
+        ",D$(Pj",
+        ",D$(Pj",
+        "D$$hor",
+        "D$Phor",
+        "up;\\$Du",
+        "%;\\$Dt",
+        "Cl_^kKl4",
+        "D$phhDp",
+        "F`;Fdt.",
+        "B`;Bdt",
+        "s`;sdt@",
+        "w`;wdt",
+        "D$<hhDp",
+        "L$,_^d",
+        "D$8hor",
+        "D$P;D$4",
+        "D$8hor",
+        "L$\\_^][d",
+        "L$P_^d",
+        "D$dhhDp",
+        "L$t_^d",
+        "L$P_^]d",
+        "D$T vr",
+        "D$T vr",
+        "D$Xdnr",
+        "/D$Tw>",
+        "D$tPtn",
+        ",D$hRP",
+        "D$ Pj(V",
+        "t$L+L.",
+        "D$ dnr",
+        "D$ dnr",
+        "D$\\dnr",
+        "D$\\dnr",
+        "L$@;A,t",
+        "D$p tr",
+        "usPh,g",
+        "B(;B,t",
+        "L$4_^d",
+        "L$$][d",
+        "CD$0Ph",
+        "D$L vr",
+        "D$L vr",
+        "P(_^][",
+        "D$ddnr",
+        "D$$dnr",
+        "usj$h|",
+        "D$$dnr",
+        "D$ddnr",
+        "L$|_^d",
+        "L$T_^]d",
+        "D$|hhDp",
+        "D$LhhDp",
+        "D$LhhDp",
+        ",T$<ju",
+        ",L$<RQS",
+        "L$\\_^d",
+        "D$8hor",
+        "D$@hhDp",
+        "B`;Bdt",
+        "L$T_^d",
+        "L$8_^]d",
+        "L$$_^d",
+        "D$hhhDp",
+        "6;t$ u",
+        "B`;Bdt",
+        "L$$_^]d",
+        "C`;Cdt",
+        "L$$_^d",
+        "d$4ho7p",
+        "d$4hO7p",
+        "d$4h[7p",
+        "d$4hm7p",
+        "D$|hhDp",
+        "+L$,QR",
+        "B`;Bdt",
+        "B`;Bdt",
+        "u`Ph|{~",
+        "B`;Bdt",
+        "B`;Bdt",
+        "B`;Bdt",
+        "B`;Bdt",
+        ",L$$RQW",
+        "L$4_^d",
+        "D$@hhDp",
+        "B`;Bdt",
+        "H_^][Y",
+        "t390u'",
+        "L$0_^]d",
+        "L$(_^]d",
+        "|$,;r,",
+        "L$<][d",
+        "L$(hv:p",
+        "^\\$PPS",
+        "l$ VW;",
+        "\\$0;w,",
+        "d$Hhk:p",
+        ",D$TPU",
+        ",D$TPR",
+        "UVit$8",
+        ";L>xu$",
+        "L$,_^][d",
+        "F(;F,t\u001f",
+        "D$ PQQ",
+        "d$@hW9p",
+        "u+h$,r",
+        "D$dhhDp",
+        "B(;B,t",
+        "t@9Hxt;",
+        "xb;O4}]iD$",
+        "d$HhD\u001fr",
+        "L$@_[d",
+        "D$,+D$(",
+        "L$,+L$(",
+        "D$dhhDp",
+        "D$,B+D$(",
+        "\\$$iPd",
+        "C`;Cdt",
+        "L$$_^d",
+        "j\u001fhD?r",
+        "j\u001fh$?r",
+        "B`;Bdt",
+        "D$l vr",
+        "/D$Lv4",
+        "D$,9D$<",
+        ",L$,RQ",
+        "D$,;D$<",
+        "L$P;t$<",
+        "D$l vr",
+        "D$pdnr",
+        "D$l vr",
+        "D$pdnr",
+        "D$l vr",
+        "D$pdnr",
+        "t2;C$t-",
+        "L$L_^d",
+        "F`;Fdt",
+        "u%hLBr",
+        "D$`hhDp",
+        "u=h0Br",
+        "j%h|Br",
+        "j%hhCr",
+        "d$4h8@r",
+        "d$4hL@r",
+        "d$4h\\@r",
+        "d$4hp@r",
+        "d$4h,@r",
+        "d$4h@Ar",
+        "d$4hPAr",
+        "d$4h`Ar",
+        "d$4hpAr",
+        "d$4h,Ar",
+        "L$(_^]d",
+        "6;t$0u",
+        "d$ThLMr",
+        "L$(9A|",
+        "P(h:<p",
+        "}ThtJr",
+        "L$|_^d",
+        "B`;Bdt:",
+        "d$@h';p",
+        "j\"hpOr",
+        "j!hLOr",
+        "j\u001fhPNr",
+        "j\u001fh0Nr",
+        "j hpNr",
+        "L$\\_^d",
+        "G,;G4|",
+        "G(;G0r",
+        "d$`h ]r",
+        "d$`h\\]r",
+        "d$4h<]r",
+        "d$`h0\\r",
+        "d$4hd\\r",
+        "d$4hp\\r",
+        "t(h`OA",
+        "d$8ht]r",
+        "d$8hd^r",
+        "/D$0vW",
+        "B`;Bdt",
+        "d$|hXVr",
+        "d$\\hxVr",
+        "d$<h Wr",
+        "|$(9|$h",
+        "|$(;|$hs",
+        "|$(;|$h",
+        "d$,hPXr",
+        "d$,h$Zr",
+        "d$,htYr",
+        "d$,h\\[r",
+        "d$,hL[r",
+        "d$(hW<p",
+        "L$4_^d",
+        "__luabind_classes",
+        "__luabind_weak_refs",
+        "__mode",
+        "__call",
+        "__concat",
+        "__luabind_classrep",
+        "__index",
+        "__newindex",
+        "__gettable",
+        "call to empty boost::function",
+        "luabind does not support member names with extra nulls:",
+        "the attribute '",
+        "' is of type: ",
+        "and does not match: (",
+        "' is read only",
+        "No such operator defined",
+        "no constructor of '",
+        "' matched the arguments (",
+        " candidates are:",
+        "call of overloaded constructor '",
+        ")' is ambiguous",
+        "none of the overloads have a best conversion:",
+        "() threw an exception",
+        "no overload of  '",
+        "candidates are:",
+        "call of overloaded  '",
+        "pure virtual function called",
+        "__init",
+        ")' is ambiguous",
+        ":__init is not defined",
+        "derived class must call super on base",
+        "derived class '",
+        "'must call super on base",
+        "cannot set property '",
+        "', because it's read only",
+        "no static '",
+        "' in class '",
+        "__finalize",
+        "custom",
+        "smart_ptr<",
+        "smart_ptr<const ",
+        "no match for function call '",
+        "' with the parameters (",
+        "call of overloaded function '",
+        ") is ambiguous",
+        "none of the overloads have a best conversion:",
+        "expected class to derive from or a newline",
+        "invalid construct, expected class name",
+        "luabind does not support class names with extra nulls",
+        "const ",
+        "generic",
+        "unknown error",
+        "iostream",
+        "iostream stream error",
+        "system",
+        "Could not match property",
+        "Emission",
+        "EmittedParticle",
+        "Entities\\Emission.cpp",
+        "ParticlesPerMinute",
+        "Stream suggests allocating an unallocatable type in AEmitter::Emission::Create!",
+        "BurstSize",
+        "Spread",
+        "MinVelocity",
+        "MaxVelocity",
+        "LifeVariation",
+        "PushesEmitter",
+        "InheritsVel",
+        "StartTimeMS",
+        "StopTimeMS",
+        "EmittedParticle",
+        "ParticlesPerMinute",
+        "BurstSize",
+        "Spread",
+        "MaxVelocity",
+        "MinVelocity",
+        "LifeVariation",
+        "PushesEmitter",
+        "InheritsVel",
+        "StartTimeMS",
+        "StopTimeMS",
+        "PEmitter",
+        "AddEmission",
+        "EmissionSound",
+        "BurstSound",
+        "EndSound",
+        "EmissionEnabled",
+        "EmissionCount",
+        "EmissionCountLimit",
+        "ParticlesPerMinute",
+        "MinThrottleRange",
+        "MaxThrottleRange",
+        "Throttle",
+        "EmissionsIgnoreThis",
+        "BurstSize",
+        "BurstScale",
+        "BurstSpacing",
+        "BurstTriggered",
+        "EmissionAngle",
+        "EmissionOffset",
+        "FlashScale",
+        "FlashOnlyOnBurst",
+        "LoudnessOnEmit",
+        "AddEmission",
+        "EmissionSound",
+        "BurstSound",
+        "EndSound",
+        "EmissionEnabled",
+        "EmissionCount",
+        "EmissionCountLimit",
+        "EmissionsIgnoreThis",
+        "MinThrottleRange",
+        "MaxThrottleRange",
+        "Throttle",
+        "BurstScale"
+    ],
+    "target": {
+        "category": "file",
+        "file": {
+            "crc32": "685AE46F",
+            "md5": "3f1ec0097c170aab7fb81a6296072dc4",
+            "name": "Cortex_Command.exe",
+            "path": "/home/cuckoo/.cuckoo/storage/binaries/b06aec9d19975d80f2ded9f7068ecbd93faf077fd9ca96c426ec995ae0a62235",
+            "sha1": "3af0ea12187554422771ae688259bb3818fc7f1e",
+            "sha256": "b06aec9d19975d80f2ded9f7068ecbd93faf077fd9ca96c426ec995ae0a62235",
+            "sha512": "25a388ddf33b74e1e5d2406cb8762197685c44d9fa38e3a50553cf851d820447c27358dd0b8cf606da80d0474b1cc5643924f868bf1c5373d34a8b5ca7d6e26e",
+            "size": 4604416,
+            "ssdeep": "49152:VUHwYBKv9rQmMsgE8PbGnFQlX/VUh2cmwT45qwa4ULgGPXlfrXn3HXn3HXn3HXnj:eHnB49CsMbGn+1/VUh2c145qFRdJ",
+            "type": "PE32 executable (GUI) Intel 80386, for MS Windows",
+            "urls": [
+                "http://www.datarealms.com/wiki/",
+                "http://steamcommunity.com/sharedfiles/filedetails/?id=",
+                "http://licensing.datarealms.com/licensing/",
+                "http://steamcommunity.com/sharedfiles/workshoplegalagreement",
+                "http://store.steampowered.com/app/300260/"
+            ],
+            "yara": []
+        }
+    }
+}
